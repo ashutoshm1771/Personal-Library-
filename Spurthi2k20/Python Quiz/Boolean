@@ -1,0 +1,200 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Boolean
+	
+1. What will be the output of the following Python code snippet?
+
+bool(‘False’)
+bool()
+a)
+
+   True 
+   True
+b)
+
+   False
+   True
+c)
+
+   False
+   False
+d)
+
+   True
+   False
+d 
+
+2. What will be the output of the following Python code snippet?
+
+['hello', 'morning'][bool('')]
+a) error
+b) no output
+c) hello
+d) morning
+c 
+
+3. What will be the output of the following Python code snippet?
+
+not(3>4)
+not(1&1)
+a)
+
+   True
+   True
+b)
+
+   True
+   False
+c)
+
+   False
+   True
+d)
+
+   False
+   False
+b 
+
+4. What will be the output of the following Python code?
+
+['f', 't'][bool('spam')]
+a) t
+b) f
+c) No output
+d) Error
+a 
+
+5. What will be the output of the following Python code?
+
+l=[1, 0, 2, 0, 'hello', '', []]
+list(filter(bool, l))
+a) Error
+b) [1, 0, 2, 0, ‘hello’, ”, []]
+c) [1, 0, 2, ‘hello’, ”, []]
+d) [1, 2, ‘hello’]
+d 
+
+6. What will be the output of the following Python code if the system date is 21st June, 2017 (Wednesday)?
+
+[] or {}
+{} or []
+a)
+
+   []
+   {}
+b)
+
+   []
+   []
+c)
+
+   {}
+   []
+d)
+
+   {}
+   {}
+c 
+
+7. What will be the output of the following Python code?
+
+class Truth:
+	pass
+x=Truth()
+bool(x)
+a) pass
+b) true
+c) false
+d) error
+b 
+
+8. What will be the output of the following Python code?
+
+if (9 < 0) and (0 < -9):
+    print("hello")
+elif (9 > 0) or False:
+    print("good")
+else:
+    print("bad")
+a) error
+b) hello
+c) good
+d) bad
+c 
+
+9. Which of the following Boolean expressions is not logically equivalent to the other three?
+a) not(-6<0 or-6>10)
+b) -6>=0 and -6<=10
+c) not(-6<10 or-6==10)
+d) not(-6>10 or-6==10)
+d 
+
+10. What will be the output of the following Python code snippet?
+
+not(10<20) and not(10>30)
+a) True
+b) False
+c) Error
+d) No output
+b 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,121 @@
+			Python MCQs 
+			Spurthi 2k20
+			
+	BitWise-1
+	
+1. What will be the output of the following Python code snippet if x=1?
+
+x<<2
+a) 8
+b) 1
+c) 2
+d) 4
+d 
+
+2. What will be the output of the following Python expression?
+
+bin(29)
+a) ‘0b10111’
+b) ‘0b11101’
+c) ‘0b11111’
+d) ‘0b11011’
+b 
+
+3. What will be the value of x in the following Python expression?
+
+x>>2=2
+a) 8
+b) 4
+c) 2
+d) 1
+a 
+
+4. What will be the output of the following Python expression?
+
+int(1011)?
+a) 1011
+b) 11
+c) 13
+d) 1101
+a 
+
+5. To find the decimal value of 1111, that is 15, we can use the function:
+a) int(1111,10)
+b) int(‘1111’,10)
+c) int(1111,2)
+d) int(‘1111’,2)
+d 
+
+6. What will be the output of the following Python expression if x=15 and y=12?
+
+x & y
+a) b1101
+b) 0b1101
+c) 12
+d) 1101
+c 
+
+7. Which of the following expressions results in an error?
+a) int(1011)
+b) int(‘1011’,23)
+c) int(1011,2)
+d) int(‘1011’)
+c 
+
+8. Which of the following represents the bitwise XOR operator?
+a) &
+b) ^
+c) |
+d) !
+b 
+
+9. What is the value of the following Python expression?
+
+bin(0x8)
+a) ‘0bx1000’
+b) 8
+c) 1000
+d) ‘0b1000’
+d 
+
+10. What will be the output of the following Python expression?
+
+0x35 | 0x75
+a) 115
+b) 116
+c) 117
+d) 118
+c 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

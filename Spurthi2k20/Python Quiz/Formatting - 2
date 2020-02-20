@@ -1,0 +1,148 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Formatting - 2
+	
+1. What will be the output of the following Python code snippet?
+
+'%d %s %g you' %(1, 'hello', 4.0)
+a) Error
+b) 1 hello you 4.0
+c) 1 hello 4 you
+d) 1 4 hello you
+c 
+
+2. The output of which of the codes shown below will be: “There are 4 blue birds.”?
+a) ‘There are %g %d birds.’ %4 %blue
+b) ‘There are %d %s birds.’ %(4, blue)
+c) ‘There are %s %d birds.’ %[4, blue]
+d) ‘There are %d %s birds.’ 4, blue
+b 
+
+3. What will be the output of the python code shown below for various styles of format specifiers?
+
+x=1234
+res='integers:...%d...%-6d...%06d' %(x, x, x)
+res
+a) ‘integers:…1234…1234  …001234’
+b) ‘integers…1234…1234…123400’
+c) ‘integers:… 1234…1234…001234’
+d) ‘integers:…1234…1234…001234’ 
+a 
+
+4. What will be the output of the following Python code snippet?
+
+x=3.3456789
+'%f | %e | %g' %(x, x, x)
+a) Error
+b) ‘3.3456789 | 3.3456789+00 | 3.345678’
+c) ‘3.345678 | 3.345678e+0 | 3.345678’
+d) ‘3.345679 | 3.345679e+00 | 3.34568’
+d 
+
+5. What will be the output of the following Python code snippet?
+
+x=3.3456789
+'%-6.2f | %05.2f | %+06.1f' %(x, x, x)
+a) ‘3.35 | 03.35 | +003.3’
+b) ‘3.3456789 | 03.3456789 | +03.3456789’
+c) Error
+d) ‘3.34 | 03.34 | 03.34+’
+a 
+
+6. What will be the output of the following Python code snippet?
+
+x=3.3456789
+'%s' %x, str(x)
+a) Error
+b) (‘3.3456789’, ‘3.3456789’)
+c) (3.3456789, 3.3456789)
+d) (‘3.3456789’, 3.3456789)
+b 
+
+7. What will be the output of the following Python code snippet?
+
+'%(qty)d more %(food)s' %{'qty':1, 'food': 'spam'}
+a) Error
+b) No output
+c) ‘1 more foods’
+d) ‘1 more spam’
+d 
+
+8. What will be the output of the following Python code snippet?
+
+a='hello'
+q=10
+vars()
+a) {‘a’ : ‘hello’, ‘q’ : 10, ……..plus built-in names set by Python….}
+b) {……Built in names set by Python……}
+c) {‘a’ : ‘hello’, ‘q’ : 10}
+d) Error
+a 
+
+9. What will be the output of the following Python code?
+
+s='{0}, {1}, and {2}'
+s.format('hello', 'good', 'morning')
+a) ‘hello good and morning’
+b) ‘hello, good, morning’
+c) ‘hello, good, and morning’
+d) Error
+c 
+
+10. What will be the output of the following Python code?
+
+s='%s, %s & %s'
+s%('mumbai', 'kolkata', 'delhi')
+a) mumbai kolkata & delhi
+b) Error
+c) No output
+d) ‘mumbai, kolkata & delhi’
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

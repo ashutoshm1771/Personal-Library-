@@ -1,0 +1,76 @@
+			Python MCQs
+			Spurthi 2k20
+
+	Basic operators
+	
+1. Which is the correct operator for power(xy)?
+a) X^y
+b) X**y
+c) X^^y
+d) None of the mentioned
+b
+
+2. Which one of these is floor division?
+a) /
+b) //
+c) %
+d) None of the mentioned
+b
+
+3. What is the order of precedence in python?
+i) Parentheses
+ii) Exponential
+iii) Multiplication
+iv) Division
+v) Addition
+vi) Subtraction
+a) i,ii,iii,iv,v,vi
+b) ii,i,iii,iv,v,vi
+c) ii,i,iv,iii,v,vi
+d) i,ii,iii,iv,vi,v
+a
+
+4. What is the answer to this expression, 22 % 3 is?
+a) 7
+b) 1
+c) 0
+d) 5
+b
+
+5. Mathematical operations can be performed on a string.
+a) True
+b) False
+b
+
+6. Operators with the same precedence are evaluated in which manner?
+a) Left to Right
+b) Right to Left
+c) Can’t say
+d) None of the mentioned
+a 
+
+7. What is the output of this expression, 3*1**3?
+a) 27
+b) 9
+c) 3
+d) 1
+c 
+
+8. Which one of the following has the same precedence level?
+a) Addition and Subtraction
+b) Multiplication, Division and Addition
+c) Multiplication, Division, Addition and Subtraction
+d) Addition and Multiplication
+a 
+
+9. The expression Int(x) implies that the variable x is converted to integer.
+a) True
+b) False
+a 
+
+10. Which one of the following has the highest precedence in the expression?
+a) Exponential
+b) Addition
+c) Multiplication
+d) Parentheses
+d 

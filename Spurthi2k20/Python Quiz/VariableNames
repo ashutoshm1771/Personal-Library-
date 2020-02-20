@@ -1,0 +1,73 @@
+			Python MCQs Spurthi 2k20
+
+	Variable Names
+
+1. Is Python case sensitive when dealing with identifiers?
+a) yes
+b) no
+c) machine dependent
+d) none of the mentioned
+a
+
+2. What is the maximum possible length of an identifier?
+a) 31 characters
+b) 63 characters
+c) 79 characters
+d) none of the mentioned
+d 
+
+3. Which of the following is invalid?
+a) _a = 1
+b) __a = 1
+c) __str__ = 1
+d) none of the mentioned
+d
+
+4. Which of the following is an invalid variable?
+a) my_string_1
+b) 1st_string
+c) foo
+d) _
+b
+
+5. Why are local variable names beginning with an underscore discouraged?
+a) they are used to indicate a private variables of a class
+b) they confuse the interpreter
+c) they are used to indicate global variables
+d) they slow down execution
+a
+
+6. Which of the following is not a keyword?
+a) eval
+b) assert
+c) nonlocal
+d) pass
+a 
+
+7. All keywords in Python are in _________
+a) lower case
+b) UPPER CASE
+c) Capitalized
+d) None of the mentioned
+d 
+
+8. Which of the following is true for variable names in Python?
+a) unlimited length
+b) all private members must have leading and trailing underscores
+c) underscore and ampersand are the only two special characters allowed
+d) none of the mentioned
+a 
+
+9. Which of the following is an invalid statement?
+a) abc = 1,000,000
+b) a b c = 1000 2000 3000
+c) a,b,c = 1000, 2000, 3000
+d) a_b_c = 1,000,000
+b 
+
+10. Which of the following cannot be a variable?
+a) __init__
+b) in
+c) it
+d) on
+b 

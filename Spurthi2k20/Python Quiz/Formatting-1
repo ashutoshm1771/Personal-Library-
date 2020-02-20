@@ -1,0 +1,124 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Formatting - 1
+
+1. What will be the output of the following Python code snippet?
+
+X=”hi”
+print(“05d”%X)
+a) 00000hi
+b) 000hi
+c) hi000
+d) error
+d 
+
+2. What will be the output of the following Python code snippet?
+
+X=”san-foundry”
+print(“%56s”,X)
+a) 56 blank spaces before san-foundry
+b) 56 blank spaces before san and foundry
+c) 56 blank spaces after san-foundry
+d) no change
+a 
+
+3. What will be the output of the following Python expression if x=456?
+
+print("%-06d"%x)
+a) 000456
+b) 456000
+c) 456
+d) error
+c 
+
+4. What will be the output of the following Python expression if X=345?
+
+print(“%06d”%X)
+a) 345000
+b) 000345
+c) 000000345
+d) 345000000
+b 
+
+5. Which of the following formatting options can be used in order to add ‘n’ blank spaces after a given string ‘S’?
+a) print(“-ns”%S)
+b) print(“-ns”%S)
+c) print(“%ns”%S)
+d) print(“%-ns”%S)
+d 
+
+6. What will be the output of the following Python expression if X = -122?
+
+print("-%06d"%x)
+a) -000122
+b) 000122
+c) –00122
+d) -00122
+c 
+
+7. What will be the output of the following Python expression if the value of x is 34?
+
+print(“%f”%x)
+a) 34.00
+b) 34.0000
+c) 34.000000
+d) 34.00000000
+c 
+
+8. What will be the output of the following Python expression if x=56.236?
+
+print("%.2f"%x)
+a) 56.00
+b) 56.24
+c) 56.23
+d) 0056.236
+b 
+
+9. What will be the output of the following Python expression if x=22.19?
+
+print("%5.2f"%x)
+a) 22.1900
+b) 22.00000
+c) 22.19
+d) 22.20
+c 
+
+10. The expression shown below results in an error.
+
+print("-%5d0",989)
+a) True
+b) False
+b 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

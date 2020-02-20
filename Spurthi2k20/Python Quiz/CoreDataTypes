@@ -1,0 +1,107 @@
+			Python MCQs 
+			Spurthi 2k20
+			
+	Core Datatypes
+			
+1. Which of these in not a core data type?
+a) Lists
+b) Dictionary
+c) Tuples
+d) Class
+d 
+
+2. Given a function that does not return any value, What value is thrown by default when executed in shell.
+a) int
+b) bool
+c) void
+d) None
+d 
+
+3. What will be the output of the following Python code?
+
+	>>>str="hello"
+	>>>str[:2]
+	>>>
+a) he
+b) lo
+c) olleh
+d) hello
+a 
+
+4. Which of the following will run without errors?
+a) round(45.8)
+b) round(6352.898,2,5)
+c) round()
+d) round(7463.123,2,1)
+a 
+
+5. What is the return type of function id?
+a) int
+b) float
+c) bool
+d) dict
+a 
+
+6. In python we do not specify types, it is directly interpreted by the compiler, 
+so consider the following operation to be performed.
+
+	>>>x = 13 ? 2
+objective is to make sure x has a integer value, select all that apply (python 3.xx)
+a) x = 13 // 2
+b) x = int(13 / 2)
+c) x = 13 % 2
+d) All of the mentioned
+d 
+
+7. What error occurs when you execute the following Python code snippet?
+
+apple = mango
+a) SyntaxError
+b) NameError
+c) ValueError
+d) TypeError 
+b 
+
+8. What will be the output of the following Python code snippet?
+
+def example(a):
+    a = a + '2'
+     a = a*2
+    return a
+>>>example("hello")
+a) indentation Error
+b) cannot perform mathematical operation on strings
+c) hello2
+d) hello2hello2
+a 
+
+9. What data type is the object below?
+
+L = [1, 23, 'hello', 1]
+a) list
+b) dictionary
+c) array
+d) tuple
+a 
+
+10. Which of the following results in a SyntaxError?
+a) ‘”Once upon a time…”, she said.’
+b) “He said, ‘Yes!'”
+c) ‘3\’
+d) ”’That’s okay”’
+c 
+
+15. What is the return value of trunc()?
+a) int
+b) bool
+c) float
+d) None
+a 
+
+
+
+
+
+
+
+

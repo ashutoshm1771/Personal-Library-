@@ -1,0 +1,148 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Precedence And Associativity
+	
+1. The value of the expressions 4/(3*(2-1)) and 4/3*(2-1) is the same.
+a) True
+b) False
+a 
+
+2. What will be the value of the following Python expression?
+
+4 + 3 % 5
+a) 4
+b) 7
+c) 2
+d) 0
+b 
+
+3. Evaluate the expression given below if A = 16 and B = 15.
+
+A % B // A
+a) 0.0
+b) 0
+c) 1.0
+d) 1
+b 
+
+4. Which of the following operators has its associativity from right to left?
+a) +
+b) //
+c) %
+d) ** 
+d 
+
+5. What will be the value of x in the following Python expression?
+
+x = int(43.55+2/2)
+a) 43
+b) 44
+c) 22
+d) 23
+b 
+
+6. What is the value of the following expression?
+
+2+4.00, 2**4.0
+a) (6.0, 16.0)
+b) (6.00, 16.00)
+c) (6, 16)
+d) (6.00, 16.0)
+a 
+
+7. Which of the following is the truncation division operator?
+a) /
+b) %
+c) //
+d) |
+c 
+
+8. What are the values of the following Python expressions?
+
+ 2**(3**2)
+ (2**3)**2
+ 2**3**2
+a) 64, 512, 64
+b) 64, 64, 64
+c) 512, 512, 512
+d) 512, 64, 512
+d 
+
+9. What is the value of the following expression?
+
+8/4/2, 8/(4/2)
+a) (1.0, 4.0)
+b) (1.0, 1.0)
+c) (4.0. 1.0)
+d) (4.0, 4.0)
+a 
+
+10. What is the value of the following expression?
+
+float(22//3+3/3)
+a) 8
+b) 8.0
+c) 8.3
+d) 8.33
+b 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

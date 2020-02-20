@@ -1,0 +1,115 @@
+			Python MCQs 
+			Spurthi 2k20
+			
+	BitWise-2 
+	
+1. It is not possible for the two’s complement value to be equal to the original value in any case.
+a) True
+b) False
+b 
+
+2. The one’s complement of 110010101 is:
+a) 001101010
+b) 110010101
+c) 001101011
+d) 110010100
+a 
+
+3. Bitwise _________ gives 1 if either of the bits is 1 and 0 when both of the bits are 1.
+a) OR
+b) AND
+c) XOR
+d) NOT 
+c 
+
+4. What will be the output of the following Python expression?
+
+4^12
+a) 2
+b) 4
+c) 8
+d) 12
+c 
+
+5. Any odd number on being AND-ed with ________ always gives 1. Hint: Any even number on being AND-ed with this value always gives 0.
+a) 10
+b) 2
+c) 1
+d) 0
+c 
+
+6. What will be the value of the following Python expression?
+
+ bin(10-2)+bin(12^4)
+a) 0b10000
+b) 0b10001000
+c) 0b1000b1000
+d) 0b10000b1000
+d 
+
+7. Which of the following expressions can be used to multiply a given number ‘a’ by 4?
+a) a<<2
+b) a<<4
+c) a>>2
+d) a>>4 
+a 
+
+8. What will be the output of the following Python code if a=10 and b =20?
+
+a=10
+b=20
+a=a^b
+b=a^b
+a=a^b
+print(a,b)
+a) 10 20
+b) 10 10
+c) 20 10
+d) 20 20
+c 
+
+9. What is the two’s complement of -44?
+a) 1011011
+b) 11010100
+c) 11101011
+d) 10110011
+b 
+
+10. What will be the output of the following Python expression?
+
+~100?
+a) 101
+b) -101
+c) 100
+d) -100
+b 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

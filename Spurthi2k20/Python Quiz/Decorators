@@ -1,0 +1,264 @@
+			Python MCQs 
+			Spurthi 2k20
+			
+		Decorators
+	
+1. What will be the output of the following Python code?
+
+def mk(x):
+    def mk1():
+        print("Decorated")
+        x()
+    return mk1
+def mk2():
+    print("Ordinary")
+p = mk(mk2)
+p()
+a)
+
+    Decorated
+    Decorated
+b)
+
+    Ordinary
+    Ordinary
+c)
+
+    Ordinary
+    Decorated
+d)
+
+    Decorated
+    Ordinary
+d 
+
+2. In the following Python code, which function is the decorator?
+
+def mk(x):
+    def mk1():
+        print("Decorated")
+        x()
+    return mk1
+def mk2():
+    print("Ordinary")
+p = mk(mk2)
+p()
+a) p()
+b) mk()
+c) mk1()
+d) mk2()
+b 
+
+3. The ______ symbol along with the name of the decorator function can be placed above the definition of the function to be decorated works as an alternate way for decorating a function.
+a) #
+b) $
+c) @
+d) &
+c 
+
+4. What will be the output of the following Python code?
+
+def ordi():
+	print("Ordinary")
+ordi
+ordi()
+a)
+
+    Address
+    Ordinary
+b)
+
+    Error
+    Address
+c)
+
+    Ordinary
+    Ordinary
+d)
+
+    Ordinary
+     Address
+a 
+
+5. The two snippets of the following Python codes are equivalent.
+
+CODE 1
+  @f
+def f1():
+        print(“Hello”)
+CODE 2
+  def f1():
+         print(“Hello”)
+f1 = f(f1)
+a) True
+b) False
+a 
+
+6. What will be the output of the following Python function?
+
+def f(p, q):
+	return p%q
+f(0, 2)
+f(2, 0)
+a)
+
+    0
+    0
+b)
+
+    Zero Division Error
+    Zero Division Error
+c)
+
+    0
+    Zero Division Error
+d)
+
+    Zero Division Error
+    0
+c 
+
+7. What will be the output of the following Python code?
+
+def f(x):
+    def f1(a, b):
+        print("hello")
+        if b==0:
+            print("NO")
+            return
+        return f(a, b)
+    return f1
+@f
+def f(a, b):
+    return a%b
+f(4,0)
+a)
+
+    hello
+    NO
+b)
+
+    hello
+    Zero Division Error
+c) NO
+d) hello
+a 
+
+8. What will be the output of the following Python code?
+
+def f(x):
+    def f1(*args, **kwargs):
+        print("*"* 5)
+        x(*args, **kwargs)
+        print("*"* 5)
+    return f1
+def a(x):
+    def f1(*args, **kwargs):
+        print("%"* 5)
+        x(*args, **kwargs)
+        print("%"* 5)
+    return f1
+@f
+@a
+def p(m):
+    print(m)
+p("hello")
+a)
+
+    *****
+    %%%%%
+    hello
+    %%%%%
+    *****
+b) Error
+c) *****%%%%%hello%%%%%*****
+d) hello
+a 
+
+9. The following python code can work with ____ parameters.
+
+def f(x):
+    def f1(*args, **kwargs):
+           print("Sanfoundry")
+           return x(*args, **kwargs)
+    return f1
+a) 2
+b) 1
+c) any number of
+d) 0
+c 
+
+10. What will be the output of the following Python code?
+
+def f(x):
+    def f1(*args, **kwargs):
+        print("*", 5)
+        x(*args, **kwargs)
+        print("*", 5)
+    return f1
+@f
+def p(m):
+    p(m)
+print("hello")
+a)
+
+    *****
+    hello
+b)
+
+    *****
+    *****
+    hello
+c) *****
+d) hello
+d 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	

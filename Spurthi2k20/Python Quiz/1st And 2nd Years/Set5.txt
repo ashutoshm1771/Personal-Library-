@@ -1,0 +1,228 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	1st and 2nd Years 
+	Set 5
+	
+1. Which of the following is an invalid statement?
+a) abc = 1,000,000
+b) a b c = 1000 2000 3000
+c) a,b,c = 1000, 2000, 3000
+d) a_b_c = 1,000,000
+b 
+
+2. Which of the following cannot be a variable?
+a) __init__
+b) in
+c) it
+d) on
+b 
+
+3. What is the value of the following expression?
+
+8/4/2, 8/(4/2)
+a) (1.0, 4.0)
+b) (1.0, 1.0)
+c) (4.0. 1.0)
+d) (4.0, 4.0)
+a 
+
+4. What is the value of the following expression?
+
+float(22//3+3/3)
+a) 8
+b) 8.0
+c) 8.3
+d) 8.33
+b
+
+5. What will be the value of the following Python expression?
+
+4+2**5//10
+a) 3
+b) 7
+c) 77
+d) 0
+b 
+
+6. The expression 2**2**3 is evaluates as: (2**2)**3.
+a) True
+b) False
+b 
+
+7. What is the result of round(0.5) – round(-0.5)?
+a) 1.0
+b) 2.0
+c) 0.0
+d) None of the mentioned
+b 
+
+8. What does 3 ^ 4 evaluate to?
+a) 81
+b) 12
+c) 0.75
+d) 7
+d 
+
+9. What data type is the object below?
+
+L = [1, 23, 'hello', 1]
+a) list
+b) dictionary
+c) array
+d) tuple
+a 
+
+10. Which of the following results in a SyntaxError?
+a) ‘”Once upon a time…”, she said.’
+b) “He said, ‘Yes!'”
+c) ‘3\’
+d) ”’That’s okay”’
+c 
+
+11. What is the two’s complement of -44?
+a) 1011011
+b) 11010100
+c) 11101011
+d) 10110011
+b 
+
+12. What will be the output of the following Python expression?
+
+~100?
+a) 101
+b) -101
+c) 100
+d) -100
+b 
+
+13. What is the value of the following Python expression?
+
+bin(0x8)
+a) ‘0bx1000’
+b) 8
+c) 1000
+d) ‘0b1000’
+d 
+
+14. What will be the output of the following Python expression?
+
+0x35 | 0x75
+a) 115
+b) 116
+c) 117
+d) 118
+c 
+
+15. The expression Int(x) implies that the variable x is converted to integer.
+a) True
+b) False
+a 
+
+16. Which one of the following has the highest precedence in the expression?
+a) Exponential
+b) Addition
+c) Multiplication
+d) Parentheses
+d 
+
+17. The following python code can work with ____ parameters.
+
+def f(x):
+    def f1(*args, **kwargs):
+           print("Sanfoundry")
+           return x(*args, **kwargs)
+    return f1
+a) 2
+b) 1
+c) any number of
+d) 0
+c 
+
+18. What will be the output of the following Python code?
+
+def f(x):
+    def f1(*args, **kwargs):
+        print("*", 5)
+        x(*args, **kwargs)
+        print("*", 5)
+    return f1
+@f
+def p(m):
+    p(m)
+print("hello")
+a)
+
+    *****
+    hello
+b)
+
+    *****
+    *****
+    hello
+c) *****
+d) hello
+d 
+
+19. What will be the output of the following Python code?
+
+'{0:f}, {1:2f}, {2:05.2f}'.format(1.23456, 1.23456, 1.23456)
+a) Error
+b) ‘1.234560, 1.22345, 1.23’
+c) No output
+d) ‘1.234560, 1.234560, 01.23’
+d 
+
+20. What will be the output of the following Python code?
+
+'%.2f%s' % (1.2345, 99)
+a) ‘1.2345’, ‘99’
+b) ‘1.2399’
+c) ‘1.234599’
+d) 1.23, 99
+b 
+
+21. What will be the output of the following Python code?
+
+s='{0}, {1}, and {2}'
+s.format('hello', 'good', 'morning')
+a) ‘hello good and morning’
+b) ‘hello, good, morning’
+c) ‘hello, good, and morning’
+d) Error
+c 
+
+22. What will be the output of the following Python code?
+
+s='%s, %s & %s'
+s%('mumbai', 'kolkata', 'delhi')
+a) mumbai kolkata & delhi
+b) Error
+c) No output
+d) ‘mumbai, kolkata & delhi’
+
+23. What will be the output of the following Python expression if x=22.19?
+
+print("%5.2f"%x)
+a) 22.1900
+b) 22.00000
+c) 22.19
+d) 22.20
+c 
+
+24. The expression shown below results in an error.
+
+print("-%5d0",989)
+a) True
+b) False
+b 
+
+25. What will be the output of the following Python code?
+
+l=[1, 0, 2, 0, 'hello', '', []]
+list(filter(bool, l))
+a) Error
+b) [1, 0, 2, 0, ‘hello’, ”, []]
+c) [1, 0, 2, ‘hello’, ”, []]
+d) [1, 2, ‘hello’]
+d 

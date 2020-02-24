@@ -1,0 +1,259 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	1st and 2nd Years 
+	Set 4
+	
+1. All keywords in Python are in _________
+a) lower case
+b) UPPER CASE
+c) Capitalized
+d) None of the mentioned
+d 
+
+2. Which of the following is true for variable names in Python?
+a) unlimited length
+b) all private members must have leading and trailing underscores
+c) underscore and ampersand are the only two special characters allowed
+d) none of the mentioned
+a 
+
+3. Which of the following is the truncation division operator?
+a) /
+b) %
+c) //
+d) |
+c 
+
+4. What are the values of the following Python expressions?
+
+ 2**(3**2)
+ (2**3)**2
+ 2**3**2
+a) 64, 512, 64
+b) 64, 64, 64
+c) 512, 512, 512
+d) 512, 64, 512
+d 
+
+5. Which of the following expressions is an example of type conversion?
+a) 4.0 + float(3)
+b) 5.3 + 6.3
+c) 5.0 + 3
+d) 3 + 7
+a 
+
+6. Which of the following expressions results in an error?
+a) float(‘10’)
+b) int(‘10’)
+c) float(’10.8’)
+d) int(’10.8’)
+d 
+
+7. What is the result of cmp(3, 1)?
+a) 1
+b) 0
+c) True
+d) False
+a 
+
+8. Which of the following is incorrect?
+a) float(‘inf’)
+b) float(‘nan’)
+c) float(’56’+’78’)
+d) float(’12+34′)
+d 
+
+9. What error occurs when you execute the following Python code snippet?
+
+apple = mango
+a) SyntaxError
+b) NameError
+c) ValueError
+d) TypeError 
+b 
+
+10. What will be the output of the following Python code snippet?
+
+def example(a):
+    a = a + '2'
+     a = a*2
+    return a
+>>>example("hello")
+a) indentation Error
+b) cannot perform mathematical operation on strings
+c) hello2
+d) hello2hello2
+a 
+
+11. Which of the following expressions can be used to multiply a given number ‘a’ by 4?
+a) a<<2
+b) a<<4
+c) a>>2
+d) a>>4 
+a 
+
+12. What will be the output of the following Python code if a=10 and b =20?
+
+a=10
+b=20
+a=a^b
+b=a^b
+a=a^b
+print(a,b)
+a) 10 20
+b) 10 10
+c) 20 10
+d) 20 20
+c 
+
+13. Which of the following expressions results in an error?
+a) int(1011)
+b) int(‘1011’,23)
+c) int(1011,2)
+d) int(‘1011’)
+c 
+
+14. Which of the following represents the bitwise XOR operator?
+a) &
+b) ^
+c) |
+d) !
+b 
+
+15. What is the output of this expression, 3*1**3?
+a) 27
+b) 9
+c) 3
+d) 1
+c 
+
+16. Which one of the following has the same precedence level?
+a) Addition and Subtraction
+b) Multiplication, Division and Addition
+c) Multiplication, Division, Addition and Subtraction
+d) Addition and Multiplication
+a 
+
+17. What will be the output of the following Python code?
+
+def f(x):
+    def f1(a, b):
+        print("hello")
+        if b==0:
+            print("NO")
+            return
+        return f(a, b)
+    return f1
+@f
+def f(a, b):
+    return a%b
+f(4,0)
+a)
+
+    hello
+    NO
+b)
+
+    hello
+    Zero Division Error
+c) NO
+d) hello
+a 
+
+18. What will be the output of the following Python code?
+
+def f(x):
+    def f1(*args, **kwargs):
+        print("*"* 5)
+        x(*args, **kwargs)
+        print("*"* 5)
+    return f1
+def a(x):
+    def f1(*args, **kwargs):
+        print("%"* 5)
+        x(*args, **kwargs)
+        print("%"* 5)
+    return f1
+@f
+@a
+def p(m):
+    print(m)
+p("hello")
+a)
+
+    *****
+    %%%%%
+    hello
+    %%%%%
+    *****
+b) Error
+c) *****%%%%%hello%%%%%*****
+d) hello
+a 
+
+19. What will be the output of the following Python code?
+
+ D=dict(p='san', q='foundry')
+'{p}{q}'.format(**D)
+a) Error
+b) sanfoundry
+c) san foundry
+d) {‘san’, ‘foundry’}
+b 
+
+20. What will be the output of the following Python code?
+
+'The {} side {1} {2}'.format('bright', 'of', 'life')
+a) Error
+b) ‘The bright side of life’
+c) ‘The {bright} side {of} {life}’
+d) No output
+a 
+
+21. What will be the output of the following Python code snippet?
+
+'%(qty)d more %(food)s' %{'qty':1, 'food': 'spam'}
+a) Error
+b) No output
+c) ‘1 more foods’
+d) ‘1 more spam’
+d 
+
+22. What will be the output of the following Python code snippet?
+
+a='hello'
+q=10
+vars()
+a) {‘a’ : ‘hello’, ‘q’ : 10, ……..plus built-in names set by Python….}
+b) {……Built in names set by Python……}
+c) {‘a’ : ‘hello’, ‘q’ : 10}
+d) Error
+a 
+
+23. What will be the output of the following Python expression if the value of x is 34?
+
+print(“%f”%x)
+a) 34.00
+b) 34.0000
+c) 34.000000
+d) 34.00000000
+c 
+
+24. What will be the output of the following Python expression if x=56.236?
+
+print("%.2f"%x)
+a) 56.00
+b) 56.24
+c) 56.23
+d) 0056.236
+b 
+
+25. What will be the output of the following Python code?
+
+['f', 't'][bool('spam')]
+a) t
+b) f
+c) No output
+d) Error
+a 

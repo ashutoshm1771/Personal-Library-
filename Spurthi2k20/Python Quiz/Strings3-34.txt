@@ -1,0 +1,95 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Strings-3
+	
+1. What will be the output of the following Python code?
+
+print('Hello!2@#World'.istitle())
+a) True
+b) False
+c) None
+d) error
+a 
+
+2. What will be the output of the following Python code?
+
+print('1Rn@'.lower())
+a) n
+b) 1rn@
+c) rn
+d) r
+b 
+
+3. What will be the output of the following Python code?
+
+print('''
+ \tfoo'''.lstrip())
+a) \tfoo
+b) foo
+c)   foo
+d) none of the mentioned
+b 
+
+4. What will be the output of the following Python code?
+
+print('xyyzxxyxyy'.lstrip('xyy'))
+a) error
+b) zxxyxyy
+c) z
+d) zxxy
+b 
+
+5. What will be the output of the following Python code?
+
+print('xyxxyyzxxy'.lstrip('xyy'))
+a) zxxy
+b) xyxxyyzxxy
+c) xyxzxxy
+d) none of the mentioned
+a 
+
+6. What will be the output of the following Python code?
+
+print('cba'.maketrans('abc', '123'))
+a) {97: 49, 98: 50, 99: 51}
+b) {65: 49, 66: 50, 67: 51}
+c) 321
+d) 123
+a 
+
+7. What will be the output of the following Python code?
+
+print('a'.maketrans('ABC', '123'))
+a) {97: 49, 98: 50, 99: 51}
+b) {65: 49, 66: 50, 67: 51}
+c) {97: 49}
+d) 1
+b 
+
+8. What will be the output of the following Python code?
+
+print('abcdef'.partition('cd'))
+a) (‘ab’, ‘ef’)
+b) (‘abef’)
+c) (‘ab’, ‘cd’, ‘ef’)
+d) 2
+c 
+
+9. What will be the output of the following Python code?
+
+print('abcdefcdgh'.partition('cd'))
+a) (‘ab’, ‘cd’, ‘ef’, ‘cd’, ‘gh’)
+b) (‘ab’, ‘cd’, ‘efcdgh’)
+c) (‘abcdef’, ‘cd’, ‘gh’)
+d) error
+b 
+
+10. What will be the output of the following Python code?
+
+print('abcd'.partition('cd'))
+a) (‘ab’, ‘cd’, ”)
+b) (‘ab’, ‘cd’)
+c) error
+d) none of the mentioned
+a 

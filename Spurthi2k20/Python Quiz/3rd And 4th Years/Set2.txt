@@ -1,0 +1,27 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	3rd and 4th Years 
+	Set 2
+	
+1. What will be the output of the following Python code?
+
+if (9 < 0) and (0 < -9):
+    print("hello")
+elif (9 > 0) or False:
+    print("good")
+else:
+    print("bad")
+a) error
+b) hello
+c) good
+d) bad
+c 
+
+2. Which of the following Boolean expressions is not logically equivalent to the other three?
+a) not(-6<0 or-6>10)
+b) -6>=0 and -6<=10
+c) not(-6<10 or-6==10)
+d) not(-6>10 or-6==10)
+d
+

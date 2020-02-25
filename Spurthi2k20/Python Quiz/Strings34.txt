@@ -1,0 +1,94 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Strings
+	
+1. What will be the output of the following Python code snippet?
+
+print('abcdefcdghcd'.split('cd', 2))
+a) [‘ab’, ‘ef’, ‘ghcd’]
+b) [‘ab’, ‘efcdghcd’]
+c) [‘abcdef’, ‘ghcd’]
+d) none of the mentioned
+a 
+
+2. What will be the output of the following Python code snippet?
+
+print('ab\ncd\nef'.splitlines())
+a) [‘ab’, ‘cd’, ‘ef’]
+b) [‘ab\n’, ‘cd\n’, ‘ef\n’]
+c) [‘ab\n’, ‘cd\n’, ‘ef’]
+d) [‘ab’, ‘cd’, ‘ef\n’]
+a 
+
+3. What will be the output of the following Python code snippet?
+
+print('Ab!2'.swapcase())
+a) AB!@
+b) ab12
+c) aB!2
+d) aB1@
+c 
+
+4. What will be the output of the following Python code snippet?
+
+print('ab cd ef'.title())
+a) Ab cd ef
+b) Ab cd eF
+c) Ab Cd Ef
+d) None of the mentioned
+c 
+
+5. What will be the output of the following Python code snippet?
+
+print('ab cd-ef'.title())
+a) Ab cd-ef
+b) Ab Cd-ef
+c) Ab Cd-Ef
+d) None of the mentioned
+c 
+
+6. What will be the output of the following Python code snippet?
+
+print('abcd'.translate('a'.maketrans('abc', 'bcd')))
+a) bcde
+b) abcd
+c) error
+d) bcdd 
+d 
+
+7. What will be the output of the following Python code snippet?
+
+print('abcd'.translate({97: 98, 98: 99, 99: 100}))
+a) bcde
+b) abcd
+c) error
+d) none of the mentioned
+d 
+
+8. What will be the output of the following Python code snippet?
+
+print('abcd'.translate({'a': '1', 'b': '2', 'c': '3', 'd': '4'}))
+a) abcd
+b) 1234
+c) error
+d) none of the mentioned
+a 
+
+9. What will be the output of the following Python code snippet?
+
+print('ab'.zfill(5))
+a) 000ab
+b) 00ab0
+c) 0ab00
+d) ab000
+a 
+
+10. What will be the output of the following Python code snippet?
+
+print('+99'.zfill(5))
+a) 00+99
+b) 00099
+c) +0099
+d) +++99
+c 

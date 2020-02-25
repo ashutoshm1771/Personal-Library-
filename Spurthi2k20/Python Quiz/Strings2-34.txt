@@ -1,0 +1,94 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Strings-2
+	
+1. What will be the output of the following Python code snippet?
+
+print('cd'.partition('cd'))
+a) (‘cd’)
+b) (”)
+c) (‘cd’, ”, ”)
+d) (”, ‘cd’, ”)
+d 
+
+2. What will be the output of the following Python code snippet?
+
+print('abef'.partition('cd'))
+a) (‘abef’)
+b) (‘abef’, ‘cd’, ”)
+c) (‘abef’, ”, ”)
+d) error
+c 
+
+3. What will be the output of the following Python code snippet?
+
+print('abcdef12'.replace('cd', '12'))
+a) ab12ef12
+b) abcdef12
+c) ab12efcd
+d) none of the mentioned
+a 
+
+4. What will be the output of the following Python code snippet?
+
+print('abef'.replace('cd', '12'))
+a) abef
+b) 12
+c) error
+d) none of the mentioned
+a 
+
+5. What will be the output of the following Python code snippet?
+
+print('abcefd'.replace('cd', '12'))
+a) ab1ef2
+b) abcefd
+c) ab1efd
+d) ab12ed2
+b 
+
+6. What will be the output of the following Python code snippet?
+
+print('xyyxyyxyxyxxy'.replace('xy', '12', 0))
+a) xyyxyyxyxyxxy
+b) 12y12y1212x12
+c) 12yxyyxyxyxxy
+d) xyyxyyxyxyx12 
+a 
+
+7. What will be the output of the following Python code snippet?
+
+print('xyyxyyxyxyxxy'.replace('xy', '12', 100))
+a) xyyxyyxyxyxxy
+b) 12y12y1212x12
+c) none of the mentioned
+d) error
+b 
+
+8. What will be the output of the following Python code snippet?
+
+print('abcdefcdghcd'.split('cd'))
+a) [‘ab’, ‘ef’, ‘gh’]
+b) [‘ab’, ‘ef’, ‘gh’, ”]
+c) (‘ab’, ‘ef’, ‘gh’)
+d) (‘ab’, ‘ef’, ‘gh’, ”)
+b 
+
+9. What will be the output of the following Python code snippet?
+
+print('abcdefcdghcd'.split('cd', 0))
+a) [‘abcdefcdghcd’]
+b) ‘abcdefcdghcd’
+c) error
+d) none of the mentioned
+a 
+
+10. What will be the output of the following Python code snippet?
+
+print('abcdefcdghcd'.split('cd', -1))
+a) [‘ab’, ‘ef’, ‘gh’]
+b) [‘ab’, ‘ef’, ‘gh’, ”]
+c) (‘ab’, ‘ef’, ‘gh’)
+d) (‘ab’, ‘ef’, ‘gh’, ”)
+b 

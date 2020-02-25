@@ -1,0 +1,66 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	3rd and 4th Years 
+	Set 1
+
+1. What will be the output of the following Python code if the system date is 21st June, 2017 (Wednesday)?
+
+[] or {}
+{} or []
+a)
+
+   []
+   {}
+b)
+
+   []
+   []
+c)
+
+   {}
+   []
+d)
+
+   {}
+   {}
+c 
+
+2. What will be the output of the following Python code?
+
+class Truth:
+	pass
+x=Truth()
+bool(x)
+a) pass
+b) true
+c) false
+d) error
+b 
+
+3. What will be the output of the following Python code?
+
+'%s' %((1.23,),)
+a) ‘(1.23,)’
+b) 1.23,
+c) (,1.23)
+d) ‘1.23’
+a 
+
+4. What will be the output of the following two codes?
+
+i. '{0}'.format(4.56)
+ii. '{0}'.format([4.56,])
+a) ‘4.56’, ‘4.56,’
+b) ‘4.56’, ‘[4.56]’
+c) 4.56, [4.56,]
+d) 4.56, [4.56,]
+b 
+
+5. What is the return value of trunc()?
+a) int
+b) bool
+c) float
+d) None
+a 
+

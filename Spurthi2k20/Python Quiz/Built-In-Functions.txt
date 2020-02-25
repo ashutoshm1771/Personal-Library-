@@ -1,0 +1,124 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Built-in Functions
+	
+1. What will be the output of the following Python functions?
+
+chr(‘97’)
+chr(97)
+a)
+
+   a
+   Error
+b)
+
+   ‘a’
+    a
+c)
+
+   Error
+   a
+d)
+
+   Error
+   Error
+c 
+
+2. What will be the output of the following Python function?
+
+complex(1+2j)
+a) Error
+b) 1
+c) 2j
+d) 1+2j
+d 
+
+3. What is the output of the function complex()?
+a) 0j
+b) 0+0j
+c) 0
+d) Error
+a 
+
+4. The function divmod(a,b), where both ‘a’ and ‘b’ are integers is evaluated as:
+a) (a%b, a//b)
+b) (a//b, a%b)
+c) (a//b, a*b)
+d) (a/b, a%b)
+b 
+
+5. What will be the output of the following Python function?
+
+divmod(10.5,5)
+divmod(2.4,1.2)
+a)
+
+(2.00, 0.50)
+(2.00, 0.00)
+b)
+
+(2, 0.5)
+(2, 0)
+c)
+
+(2.0, 0.5)
+(2.0, 0.0)
+d)
+
+(2, 0.5)
+(2)
+c 
+
+6. The function complex(‘2-3j’) is valid but the function complex(‘2 – 3j’) is invalid.
+a) True
+b) False
+a 
+
+7. What will be the output of the following Python function?
+
+list(enumerate([2, 3]))
+a) Error
+b) [(1, 2), (2, 3)]
+c) [(0, 2), (1, 3)]
+d) [(2, 3)]
+c 
+
+8. What will be the output of the following Python functions?
+
+x=3
+eval('x^2')
+a) Error
+b) 1
+c) 9
+d) 6
+b 
+
+9. What will be the output of the following Python functions?
+
+float('1e-003')
+float('2e+003')
+a)
+
+3.00
+300
+b)
+
+0.001
+2000.0
+c)
+
+0.001
+200
+d)
+
+Error
+2003
+b 
+
+10. Which of the following functions does not necessarily accept only iterables as arguments?
+a) enumerate()
+b) all()
+c) chr()
+d) max()
+c 

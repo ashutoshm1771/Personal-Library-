@@ -1,0 +1,219 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Local vs Global Variables
+	
+1. What will be the output of the following Python code?
+
+def f1():
+    x=15
+    print(x)
+x=12
+f1()
+a) Error
+b) 12
+c) 15
+d) 1512
+c 
+
+2. What will be the output of the following Python code?
+
+def f1():
+    x=100
+    print(x)
+x=+1
+f1()
+a) Error
+b) 100
+c) 101
+d) 99
+b 
+
+3. What will be the output of the following Python code?
+
+def san(x):
+    print(x+1)
+x=-2
+x=4
+san(12)
+a) 13
+b) 10
+c) 2
+d) 5
+a 
+
+4. What will be the output of the following Python code?
+
+def f1():
+    global x
+    x+=1
+    print(x)
+x=12
+print("x")
+a) Error
+b) 13
+c)
+
+13
+x
+d) x
+d 
+
+5. What will be the output of the following Python code?
+
+def f1(x):
+    global x
+    x+=1
+    print(x)
+f1(15)
+print("hello")
+a) error
+b) hello
+c) 16
+d)	16
+	hello
+a 
+
+6. What will be the output of the following Python code?
+
+x=12
+def f1(a,b=x):
+    print(a,b)
+x=15
+f1(4)
+a) Error
+b) 12 4
+c) 4 12
+d) 4 15
+c 
+
+7. What will be the output of the following Python code?
+
+def f():
+    global a
+    print(a)
+    a = "hello"
+    print(a) 
+a = "world" 
+f()
+print(a)
+a)
+
+    hello
+    hello 
+    world
+b)
+
+    world 
+    hello
+    hello
+c)
+
+    hello
+    world
+    world
+d)
+
+    world
+    hello
+    world
+b 
+
+8. What will be the output of the following Python code?
+
+def f1(a,b=[]):
+    b.append(a)
+    return b
+print(f1(2,[3,4]))
+a) [3,2,4]
+b) [2,3,4]
+c) Error
+d) [3,4,2]
+d 
+
+9. What will be the output of the following Python code?
+
+def f(p, q, r):
+    global s
+    p = 10
+    q = 20
+    r = 30
+    s = 40
+    print(p,q,r,s)
+p,q,r,s = 1,2,3,4
+f(5,10,15)
+a) 1 2 3 4
+b) 5 10 15 4
+c) 10 20 30 40
+d) 5 10 15 40
+c 
+
+10. What will be the output of the following Python code?
+
+def f(x):
+    print("outer")
+    def f1(a):
+        print("inner")
+        print(a,x)
+f(3)
+f1(1)
+a)
+
+outer
+error
+b)
+
+inner 
+error 
+c)
+
+outer
+inner
+d) error
+a 
+
+11. What will be the output of the following Python code?
+
+x = 5 
+def f1():
+    global x
+    x = 4
+def f2(a,b):
+    global x
+    return a+b+x
+f1()
+total = f2(1,2)
+print(total)
+a) Error
+b) 7
+c) 8
+d) 15
+b 
+
+12. What will be the output of the following Python code?
+
+x=100
+def f1():
+    global x
+    x=90
+def f2():
+    global x
+    x=80
+print(x)
+a) 100
+b) 90
+c) 80
+d) Error
+a 
+
+13. Read the following Python code carefully and point out the global variables?
+
+y, z = 1, 2
+def f():
+    global x
+    x = y+z
+a) x
+b) y and z
+c) x, y and z
+d) Neither x, nor y, nor z
+c 

@@ -1,0 +1,127 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Functions
+	
+1. What is a variable defined outside a function referred to as?
+a) A static variable
+b) A global variable
+c) A local variable
+d) An automatic variable
+b 
+
+2. What is a variable defined inside a function referred to as?
+a) A global variable
+b) A volatile variable
+c) A local variable
+d) An automatic variable
+c 
+
+3. What will be the output of the following Python code?
+
+i=0
+def change(i):
+   i=i+1
+   return i
+change(1)
+print(i)
+a) 1
+b) Nothing is displayed
+c) 0
+d) An exception is thrown
+c 
+
+4. What will be the output of the following Python code?
+
+def a(b):
+    b = b + [5]
+ 
+c = [1, 2, 3, 4]
+a(c)
+print(len(c))
+a) 4
+b) 5
+c) 1
+d) An exception is thrown
+b 
+
+5. What will be the output of the following Python code?
+
+a=10
+b=20
+def change():
+    global b
+    a=45
+    b=56
+change()
+print(a)
+print(b)
+a)
+
+10
+56
+b)
+
+45
+56
+c)
+
+10
+20
+d) Syntax Error
+a 
+
+6. What will be the output of the following Python code?
+
+def change(i = 1, j = 2):
+    i = i + j
+    j = j + 1
+    print(i, j)
+change(j = 1, i = 2)
+a) An exception is thrown because of conflicting values
+b) 1 2
+c) 3 3
+d) 3 2
+d 
+
+7. What will be the output of the following Python code?
+
+def change(one, *two):
+   print(type(two))
+change(1,2,3,4)
+a) Integer
+b) Tuple
+c) Dictionary
+d) An exception is thrown
+b 
+
+8. If a function doesn’t have a return statement, which of the following does the function return?
+a) int
+b) null
+c) None
+d) An exception is thrown without the return statement
+c 
+
+9. What will be the output of the following Python code?
+
+def display(b, n):
+    while n > 0:
+        print(b,end="")
+        n=n-1
+display('z',3)
+a) zzz
+b) zz
+c) An exception is executed
+d) Infinite loop
+a 
+
+10. What will be the output of the following Python code?
+
+def find(a, **b):
+   print(type(b))
+find('letters',A='1',B='2')
+a) String
+b) Tuple
+c) Dictionary
+d) An exception is thrown
+c 

@@ -1,0 +1,285 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	3rd and 4th Years 
+	Set 6
+	
+1. Recursion and iteration are the same programming approach.
+a) True
+b) False
+b 
+
+2. What happens if the base condition isn’t defined in recursive programs?
+a) Program gets into an infinite loop
+b) Program runs once
+c) Program runs n number of times where n is the argument given to the function
+d) An exception is thrown
+a 
+
+3. What will be the output of the following Python code?
+
+x = 5 
+def f1():
+    global x
+    x = 4
+def f2(a,b):
+    global x
+    return a+b+x
+f1()
+total = f2(1,2)
+print(total)
+a) Error
+b) 7
+c) 8
+d) 15
+b 
+
+4. What will be the output of the following Python code?
+
+x=100
+def f1():
+    global x
+    x=90
+def f2():
+    global x
+    x=80
+print(x)
+a) 100
+b) 90
+c) 80
+d) Error
+a 
+
+5. What will be the output of the following Python functions?
+
+chr(‘97’)
+chr(97)
+a)
+
+   a
+   Error
+b)
+
+   ‘a’
+    a
+c)
+
+   Error
+   a
+d)
+
+   Error
+   Error
+c 
+
+6. What will be the output of the following Python function?
+
+complex(1+2j)
+a) Error
+b) 1
+c) 2j
+d) 1+2j
+d 
+
+7. What will be the output of the following Python code?
+
+l=list('HELLO')
+'first={0[0]}, third={0[2]}'.format(l)
+a) ‘first=H, third=L’
+b) ‘first=0, third=2’
+c) Error
+d) ‘first=0, third=L’
+a 
+
+8. What will be the output of the following Python code?
+
+l=list('HELLO')
+p=l[0], l[-1], l[1:3]
+'a={0}, b={1}, c={2}'.format(*p)
+a) Error
+b) “a=’H’, b=’O’, c=(E, L)”
+c) “a=H, b=O, c=[‘E’, ‘L’]”
+d) Junk value
+c 
+
+9. What is a variable defined outside a function referred to as?
+a) A static variable
+b) A global variable
+c) A local variable
+d) An automatic variable
+b 
+
+10. What is a variable defined inside a function referred to as?
+a) A global variable
+b) A volatile variable
+c) A local variable
+d) An automatic variable
+c 
+
+11. What will be the output of the following Python code?
+
+>>> a=[(2,4),(1,2),(3,9)]
+>>> a.sort()
+>>> a
+a) [(1, 2), (2, 4), (3, 9)]
+b) [(2,4),(1,2),(3,9)]
+c) Error because tuples are immutable
+d) Error, tuple has no sort attribute
+a 
+
+12. Which of the following functions will return the symmetric difference between two sets, x and y?
+a) x | y
+b) x ^ y
+c) x & y
+d) x – y
+c 
+
+13. What will be the output of the following Python code snippet?
+
+z=set('abc$de')
+'a' in z
+a) True
+b) False
+c) No output
+d) Error
+a 
+
+14. If we have two sets, s1 and s2, and we want to check if all the elements of s1 are present in s2 or not, we can use the function:
+a) s2.issubset(s1)
+b) s2.issuperset(s1)
+c) s1.issuperset(s2)
+d) s1.isset(s2)
+b 
+
+15. What will be the output of the following Python code?
+
+s1={1, 2, 3, 8}
+s2={3, 4, 5, 6}
+s1|s2
+s1.union(s2)
+a)
+
+{3}
+{1, 2, 3, 4, 5, 6, 8}
+b)
+
+{1, 2, 4, 5, 6, 8}
+{1, 2, 4, 5, 6, 8}
+c)
+
+{3}
+{3}
+d)
+
+{1, 2, 3, 4, 5, 6, 8}
+{1, 2, 3, 4, 5, 6, 8}
+d 
+
+16. What will be the output of the following Python code?
+
+for i in range(10):
+    if i == 5:
+        break
+    else:
+        print(i)
+else:
+    print("Here")
+a) 0 1 2 3 4 Here
+b) 0 1 2 3 4 5 Here
+c) 0 1 2 3 4
+d) 1 2 3 4 5
+c 
+
+17. What will be the output of the following Python code?
+
+for i in range(5):
+    if i == 5:
+        break
+    else:
+        print(i)
+else:
+    print("Here")
+a) 0 1 2 3 4 Here
+b) 0 1 2 3 4 5 Here
+c) 0 1 2 3 4
+d) 1 2 3 4 5
+a 
+
+18. What will be the output of the following Python code?
+
+print('Hello!2@#World'.istitle())
+a) True
+b) False
+c) None
+d) error
+a 
+
+19. What will be the output of the following Python code snippet?
+
+print('cd'.partition('cd'))
+a) (‘cd’)
+b) (”)
+c) (‘cd’, ”, ”)
+d) (”, ‘cd’, ”)
+d 
+
+20. What will be the output of the following Python code snippet?
+
+print('abef'.partition('cd'))
+a) (‘abef’)
+b) (‘abef’, ‘cd’, ”)
+c) (‘abef’, ”, ”)
+d) error
+c 
+
+21. What will be the output of the following Python code snippet?
+
+print('abcdefcdghcd'.split('cd', 2))
+a) [‘ab’, ‘ef’, ‘ghcd’]
+b) [‘ab’, ‘efcdghcd’]
+c) [‘abcdef’, ‘ghcd’]
+d) none of the mentioned
+a 
+
+22. What will be the output of the following Python code snippet?
+
+print('ab\ncd\nef'.splitlines())
+a) [‘ab’, ‘cd’, ‘ef’]
+b) [‘ab\n’, ‘cd\n’, ‘ef\n’]
+c) [‘ab\n’, ‘cd\n’, ‘ef’]
+d) [‘ab’, ‘cd’, ‘ef\n’]
+a 
+
+23. The formatting method {1:<10} represents the ___________ positional argument, _________ justified in a 10 character wide field.
+a) first, right
+b) second, left
+c) first, left
+d) second, right
+b 
+
+24. Fill in the line of the following Python code for calculating the factorial of a number.
+
+def fact(num):
+    if num == 0: 
+        return 1
+    else:
+        return _____________________
+a) num*fact(num-1)
+b) (num-1)*(num-2)
+c) num*(num-1)
+d) fact(num)*fact(num-1)
+a 
+
+25. What will be the output of the following Python code?
+
+def test(i,j):
+    if(i==0):
+        return j
+    else:
+        return test(i-1,i+j)
+print(test(4,7))
+a) 13
+b) 7
+c) Infinite loop
+d) 17
+d 

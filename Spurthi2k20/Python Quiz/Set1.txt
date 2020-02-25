@@ -1,0 +1,277 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Set1
+	
+1. What will be the output of the following Python code?
+
+s1={3, 4}
+s2={1, 2}
+s3=set()
+i=0
+j=0
+for i in s1:
+    for j in s2:
+        s3.add((i,j))
+        i+=1
+        j+=1
+print(s3)
+a) {(3, 4), (1, 2)}
+b) Error
+c) {(4, 2), (3, 1), (4, 1), (5, 2)}
+d) {(3, 1), (4, 2)}
+c 
+
+2. The ____________ function removes the first element of a set and the last element of a list.
+a) remove
+b) pop
+c) discard
+d) dispose
+b 
+
+3. The difference between the functions discard and remove is that:
+a) Discard removes the last element of the set whereas remove removes the first element of the set
+b) Discard throws an error if the specified element is not present in the set whereas remove does not throw an error in case of absence of the specified element
+c) Remove removes the last element of the set whereas discard removes the first element of the set
+d) Remove throws an error if the specified element is not present in the set whereas discard does not throw an error in case of absence of the specified element
+d 
+
+4. What will be the output of the following Python code?
+
+s1={1, 2, 3}
+s2={3, 4, 5, 6}
+s1.difference(s2)
+s2.difference(s1)
+a)
+
+{1, 2}
+{4, 5, 6}
+b)
+
+{1, 2}
+{1, 2}
+c)
+
+{4, 5, 6}
+{1, 2}
+d)
+
+{4, 5, 6}
+{4, 5, 6}
+a 
+
+5. What will be the output of the following Python code?
+
+s1={1, 2, 3}
+s2={4, 5, 6}
+s1.isdisjoint(s2)
+s2.isdisjoint(s1)
+a)
+
+True
+False
+b)
+
+False 
+True
+c)
+
+True
+True
+d)
+
+False
+False
+c 
+
+
+« Prev PageNext Page »
+Python Questions and Answers – Sets – 5
+This set of Python Multiple Choice Questions & Answers (MCQs) focuses on “Sets – 5”.
+
+1. What will be the output of the following Python code?
+
+s1={3, 4}
+s2={1, 2}
+s3=set()
+i=0
+j=0
+for i in s1:
+    for j in s2:
+        s3.add((i,j))
+        i+=1
+        j+=1
+print(s3)
+a) {(3, 4), (1, 2)}
+b) Error
+c) {(4, 2), (3, 1), (4, 1), (5, 2)}
+d) {(3, 1), (4, 2)}
+View Answer
+
+Answer: c
+Explanation: The code shown above finds the Cartesian product of the two sets, s1 and s2. The Cartesian product of these two sets is stored in a third set, that is, s3. Hence the output of this code is: {(4, 2), (3, 1), (4, 1), (5, 2)}.
+2. The ____________ function removes the first element of a set and the last element of a list.
+a) remove
+b) pop
+c) discard
+d) dispose
+View Answer
+
+Answer: b
+Explanation: The function pop removes the first element when used on a set and the last element when used to a list.
+3. The difference between the functions discard and remove is that:
+a) Discard removes the last element of the set whereas remove removes the first element of the set
+b) Discard throws an error if the specified element is not present in the set whereas remove does not throw an error in case of absence of the specified element
+c) Remove removes the last element of the set whereas discard removes the first element of the set
+d) Remove throws an error if the specified element is not present in the set whereas discard does not throw an error in case of absence of the specified element
+View Answer
+
+Answer: d
+Explanation: The function remove removes the element if it is present in the set. If the element is not present, it throws an error. The function discard removes the element if it is present in the set. If the element is not present, no action is performed (Error is not thrown).
+4. What will be the output of the following Python code?
+
+s1={1, 2, 3}
+s2={3, 4, 5, 6}
+s1.difference(s2)
+s2.difference(s1)
+a)
+
+{1, 2}
+{4, 5, 6}
+b)
+
+{1, 2}
+{1, 2}
+c)
+
+{4, 5, 6}
+{1, 2}
+d)
+
+{4, 5, 6}
+{4, 5, 6}
+View Answer
+Answer: a
+Explanation: The function s1.difference(s2) returns a set containing the elements which are present in the set s1 but not in the set s2. Similarly, the function s2.difference(s1) returns a set containing elements which are present in the set s2 but not in the set s1. Hence the output of the code shown above will be:
+{1, 2}
+{4, 5, 6}.
+ 
+ 
+5. What will be the output of the following Python code?
+
+s1={1, 2, 3}
+s2={4, 5, 6}
+s1.isdisjoint(s2)
+s2.isdisjoint(s1)
+a)
+
+True
+False
+b)
+
+False 
+True
+c)
+
+True
+True
+d)
+
+False
+False
+View Answer
+Answer: c
+Explanation: The function isdisjoint returns true the two sets in question are disjoint, that is if they do not have even a single element in common. The two sets s1 and s2 do not have any elements in common, hence true is returned in both the cases.
+ 
+ 
+advertisement
+
+6. If we have two sets, s1 and s2, and we want to check if all the elements of s1 are present in s2 or not, we can use the function:
+a) s2.issubset(s1)
+b) s2.issuperset(s1)
+c) s1.issuperset(s2)
+d) s1.isset(s2)
+b 
+
+7. What will be the output of the following Python code?
+
+s1={1, 2, 3, 8}
+s2={3, 4, 5, 6}
+s1|s2
+s1.union(s2)
+a)
+
+{3}
+{1, 2, 3, 4, 5, 6, 8}
+b)
+
+{1, 2, 4, 5, 6, 8}
+{1, 2, 4, 5, 6, 8}
+c)
+
+{3}
+{3}
+d)
+
+{1, 2, 3, 4, 5, 6, 8}
+{1, 2, 3, 4, 5, 6, 8}
+d 
+
+8. What will be the output of the following Python code?
+
+a=set('abc')
+b=set('def')
+b.intersection_update(a)
+a
+b
+a)
+
+set()
+(‘e’, ‘d’, ‘f’}
+b)
+
+{}
+{}
+c)
+
+{‘b’, ‘c’, ‘a’}
+set()
+d)
+
+set()
+set()
+c 
+
+9. What will be the output of the following Python code, if s1= {1, 2, 3}?
+
+s1.issubset(s1)
+a) True
+b) Error
+c) No output
+d) False
+a 
+
+10. What will be the output of the following Python code?
+
+x=set('abcde')
+y=set('xyzbd')
+x.difference_update(y)
+x
+y
+a)
+
+   {‘a’, ‘b’, ‘c’, ‘d’, ‘e’}
+   {‘x’, ‘y’, ‘z’}
+b)
+
+   {‘a’, ‘c’, ‘e’}
+   {‘x’, ‘y’, ‘z’, ‘b’, ‘d’}
+c)
+
+   {‘b’, ‘d’}
+   {‘b’, ‘d’}
+d)
+
+   {‘a’, ‘c’, ‘e’}
+   {‘x’, ‘y’, ‘z’}
+b 

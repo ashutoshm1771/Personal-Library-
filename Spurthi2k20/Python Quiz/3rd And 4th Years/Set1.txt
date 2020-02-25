@@ -64,3 +64,222 @@ c) float
 d) None
 a 
 
+6. Which is the most appropriate definition for recursion?
+a) A function that calls itself
+b) A function execution instance that calls another execution instance of the same function
+c) A class method that calls another class method
+d) An in-built method that is automatically called
+b 
+
+7. Only problems that are recursively defined can be solved using recursion.
+a) True
+b) False
+b 
+
+8. What will be the output of the following Python code?
+
+def f1():
+    x=15
+    print(x)
+x=12
+f1()
+a) Error
+b) 12
+c) 15
+d) 1512
+c 
+
+9. What will be the output of the following Python code?
+
+def f1():
+    x=100
+    print(x)
+x=+1
+f1()
+a) Error
+b) 100
+c) 101
+d) 99
+b 
+
+10. What will be the output of the following Python functions?
+
+chr(‘97’)
+chr(97)
+a)
+
+   a
+   Error
+b)
+
+   ‘a’
+    a
+c)
+
+   Error
+   a
+d)
+
+   Error
+   Error
+c 
+
+11. What will be the output of the following Python function?
+
+complex(1+2j)
+a) Error
+b) 1
+c) 2j
+d) 1+2j
+d 
+
+12. What is a variable defined outside a function referred to as?
+a) A static variable
+b) A global variable
+c) A local variable
+d) An automatic variable
+b 
+
+13. What is a variable defined inside a function referred to as?
+a) A global variable
+b) A volatile variable
+c) A local variable
+d) An automatic variable
+c 
+
+14. Is the following Python code valid?
+
+>>> a,b,c=1,2,3
+>>> a,b,c
+a) Yes, [1,2,3] is printed
+b) No, invalid syntax
+c) Yes, (1,2,3) is printed
+d) 1 is printed
+c 
+
+15. What will be the output of the following Python code?
+
+a = ('check',)
+n = 2
+for i in range(int(n)):
+    a = (a,)
+    print(a)
+a) Error, tuples are immutable
+b)
+(('check',),)
+((('check',),),)
+c) ((‘check’,)’check’,)
+d)
+
+(('check',)’check’,)
+((('check',)’check’,)’check’,)
+b 
+
+16. Which of the following functions will return the symmetric difference between two sets, x and y?
+a) x | y
+b) x ^ y
+c) x & y
+d) x – y
+c 
+
+17. What will be the output of the following Python code snippet?
+
+z=set('abc$de')
+'a' in z
+a) True
+b) False
+c) No output
+d) Error
+a 
+
+18. What will be the output of the following Python code?
+
+s1={3, 4}
+s2={1, 2}
+s3=set()
+i=0
+j=0
+for i in s1:
+    for j in s2:
+        s3.add((i,j))
+        i+=1
+        j+=1
+print(s3)
+a) {(3, 4), (1, 2)}
+b) Error
+c) {(4, 2), (3, 1), (4, 1), (5, 2)}
+d) {(3, 1), (4, 2)}
+c 
+
+19. The ____________ function removes the first element of a set and the last element of a list.
+a) remove
+b) pop
+c) discard
+d) dispose
+b 
+
+20. What will be the output of the following Python code?
+
+for i in range(10):
+    if i == 5:
+        break
+    else:
+        print(i)
+else:
+    print("Here")
+a) 0 1 2 3 4 Here
+b) 0 1 2 3 4 5 Here
+c) 0 1 2 3 4
+d) 1 2 3 4 5
+c 
+
+21. What will be the output of the following Python code?
+
+for i in range(5):
+    if i == 5:
+        break
+    else:
+        print(i)
+else:
+    print("Here")
+a) 0 1 2 3 4 Here
+b) 0 1 2 3 4 5 Here
+c) 0 1 2 3 4
+d) 1 2 3 4 5
+a 
+
+22. What will be the output of the following Python code?
+
+print('Hello!2@#World'.istitle())
+a) True
+b) False
+c) None
+d) error
+a 
+
+23. What will be the output of the following Python code?
+
+print('1Rn@'.lower())
+a) n
+b) 1rn@
+c) rn
+d) r
+b 
+
+24. What will be the output of the following Python code snippet?
+
+print('cd'.partition('cd'))
+a) (‘cd’)
+b) (”)
+c) (‘cd’, ”, ”)
+d) (”, ‘cd’, ”)
+d 
+
+25. What will be the output of the following Python code snippet?
+
+print('abef'.partition('cd'))
+a) (‘abef’)
+b) (‘abef’, ‘cd’, ”)
+c) (‘abef’, ”, ”)
+d) error
+c 

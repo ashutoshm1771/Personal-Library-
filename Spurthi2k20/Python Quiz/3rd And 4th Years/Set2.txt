@@ -25,3 +25,279 @@ c) not(-6<10 or-6==10)
 d) not(-6>10 or-6==10)
 d
 
+3. Which of these is false about recursion?
+a) Recursive function can be replaced by a non-recursive function
+b) Recursive functions usually take more memory space than non-recursive function
+c) Recursive functions run faster than non-recursive function
+d) Recursion makes programs easier to understand
+c 
+
+4. Fill in the line of the following Python code for calculating the factorial of a number.
+
+def fact(num):
+    if num == 0: 
+        return 1
+    else:
+        return _____________________
+a) num*fact(num-1)
+b) (num-1)*(num-2)
+c) num*(num-1)
+d) fact(num)*fact(num-1)
+a 
+
+5. What will be the output of the following Python code?
+
+def san(x):
+    print(x+1)
+x=-2
+x=4
+san(12)
+a) 13
+b) 10
+c) 2
+d) 5
+a 
+
+6. What will be the output of the following Python code?
+
+def f1():
+    global x
+    x+=1
+    print(x)
+x=12
+print("x")
+a) Error
+b) 13
+c)
+
+13
+x
+d) x
+d 
+
+7. What is the output of the function complex()?
+a) 0j
+b) 0+0j
+c) 0
+d) Error
+a 
+
+8. The function divmod(a,b), where both ‘a’ and ‘b’ are integers is evaluated as:
+a) (a%b, a//b)
+b) (a//b, a%b)
+c) (a//b, a*b)
+d) (a/b, a%b)
+b 
+
+9. What will be the output of the following Python code?
+
+i=0
+def change(i):
+   i=i+1
+   return i
+change(1)
+print(i)
+a) 1
+b) Nothing is displayed
+c) 0
+d) An exception is thrown
+c 
+
+10. What will be the output of the following Python code?
+
+def a(b):
+    b = b + [5]
+ 
+c = [1, 2, 3, 4]
+a(c)
+print(len(c))
+a) 4
+b) 5
+c) 1
+d) An exception is thrown
+b 
+
+11. Is the following Python code valid?
+
+>>> a,b=1,2,3
+a) Yes, this is an example of tuple unpacking. a=1 and b=2
+b) Yes, this is an example of tuple unpacking. a=(1,2) and b=3
+c) No, too many values to unpack
+d) Yes, this is an example of tuple unpacking. a=1 and b=(2,3)
+c 
+
+12. What will be the output of the following Python code?
+
+>>> a=(1,2)
+>>> b=(3,4)
+>>> c=a+b
+>>> c
+a) (4,6)
+b) (1,2,3,4)
+c) Error as tuples are immutable
+d) None
+b 
+
+13. What will be the output of the following Python code snippet?
+
+z=set('abc')
+z.add('san')
+z.update(set(['p', 'q']))
+z
+a) {‘abc’, ‘p’, ‘q’, ‘san’}
+b) {‘a’, ‘b’, ‘c’, [‘p’, ‘q’], ‘san}
+c) {‘a’, ‘c’, ‘c’, ‘p’, ‘q’, ‘s’, ‘a’, ‘n’}
+d) {‘a’, ‘b’, ‘c’, ‘p’, ‘q’, ‘san’}
+d 
+
+14. What will be the output of the following Python code snippet?
+
+s=set([1, 2, 3])
+s.union([4, 5])
+s|([4, 5])
+a)
+
+   {1, 2, 3, 4, 5}
+   {1, 2, 3, 4, 5}
+b)
+
+   Error
+   {1, 2, 3, 4, 5}
+c)
+
+   {1, 2, 3, 4, 5}
+   Error
+d)
+
+   Error
+   Error
+c 
+
+15. The difference between the functions discard and remove is that:
+a) Discard removes the last element of the set whereas remove removes the first element of the set
+b) Discard throws an error if the specified element is not present in the set whereas remove does not throw an error in case of absence of the specified element
+c) Remove removes the last element of the set whereas discard removes the first element of the set
+d) Remove throws an error if the specified element is not present in the set whereas discard does not throw an error in case of absence of the specified element
+d 
+
+16. What will be the output of the following Python code?
+
+s1={1, 2, 3}
+s2={3, 4, 5, 6}
+s1.difference(s2)
+s2.difference(s1)
+a)
+
+{1, 2}
+{4, 5, 6}
+b)
+
+{1, 2}
+{1, 2}
+c)
+
+{4, 5, 6}
+{1, 2}
+d)
+
+{4, 5, 6}
+{4, 5, 6}
+a 
+
+17. What will be the output of the following Python code?
+
+x = (i for i in range(3))
+for i in x:
+    print(i)
+a) 0 1 2
+b) error
+c) 0 1 2 0 1 2
+d) none of the mentioned
+a 
+
+18. What will be the output of the following Python code?
+
+x = (i for i in range(3))
+for i in x:
+    print(i)
+for i in x:
+    print(i)
+a) 0 1 2
+b) error
+c) 0 1 2 0 1 2
+d) none of the mentioned
+a 
+
+19. What will be the output of the following Python code?
+
+print('''
+ \tfoo'''.lstrip())
+a) \tfoo
+b) foo
+c)   foo
+d) none of the mentioned
+b 
+
+20. What will be the output of the following Python code?
+
+print('xyyzxxyxyy'.lstrip('xyy'))
+a) error
+b) zxxyxyy
+c) z
+d) zxxy
+b 
+
+21. What will be the output of the following Python code snippet?
+
+print('abcdef12'.replace('cd', '12'))
+a) ab12ef12
+b) abcdef12
+c) ab12efcd
+d) none of the mentioned
+a 
+
+22. What will be the output of the following Python code snippet?
+
+print('abef'.replace('cd', '12'))
+a) abef
+b) 12
+c) error
+d) none of the mentioned
+a 
+
+23. What will be the output of the following Python code snippet?
+
+print('Ab!2'.swapcase())
+a) AB!@
+b) ab12
+c) aB!2
+d) aB1@
+c 
+
+24. What will be the output of the following Python code snippet?
+
+print('ab cd ef'.title())
+a) Ab cd ef
+b) Ab cd eF
+c) Ab Cd Ef
+d) None of the mentioned
+c 
+
+25. What will be the output of the following Python code?
+
+a = ('check',)
+n = 2
+for i in range(int(n)):
+    a = (a,)
+    print(a)
+a) Error, tuples are immutable
+b)
+
+(('check',),)
+((('check',),),)
+c) ((‘check’,)’check’,)
+d)
+
+(('check',)’check’,)
+((('check',)’check’,)’check’,)
+b 

@@ -1,0 +1,350 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	3rd and 4th Years 
+	Set 5
+	
+1. Which of the following statements is false about recursion?
+a) Every recursive function must have a base case
+b) Infinite recursion can occur if the base case isn’t properly mentioned
+c) A recursive function makes the code easier to understand
+d) Every recursive function must have a return value
+d 
+
+2. What will be the output of the following Python code?
+
+def fun(n):
+    if (n > 100):
+        return n - 5
+    return fun(fun(n+11));
+ 
+print(fun(45))
+a) 50
+b) 100
+c) 74
+d) Infinite loop
+b 
+
+3. What will be the output of the following Python code?
+
+def f(p, q, r):
+    global s
+    p = 10
+    q = 20
+    r = 30
+    s = 40
+    print(p,q,r,s)
+p,q,r,s = 1,2,3,4
+f(5,10,15)
+a) 1 2 3 4
+b) 5 10 15 4
+c) 10 20 30 40
+d) 5 10 15 40
+c 
+
+4. What will be the output of the following Python code?
+
+def f(x):
+    print("outer")
+    def f1(a):
+        print("inner")
+        print(a,x)
+f(3)
+f1(1)
+a)
+
+outer
+error
+b)
+
+inner 
+error 
+c)
+
+outer
+inner
+d) error
+a
+
+5. What will be the output of the following Python functions?
+
+float('1e-003')
+float('2e+003')
+a)
+
+3.00
+300
+b)
+
+0.001
+2000.0
+c)
+
+0.001
+200
+d)
+
+Error
+2003
+b 
+
+6. Which of the following functions does not necessarily accept only iterables as arguments?
+a) enumerate()
+b) all()
+c) chr()
+d) max()
+c 
+
+7. What will be the output of the following Python code?
+
+def display(b, n):
+    while n > 0:
+        print(b,end="")
+        n=n-1
+display('z',3)
+a) zzz
+b) zz
+c) An exception is executed
+d) Infinite loop
+a 
+
+8. What will be the output of the following Python code?
+
+def find(a, **b):
+   print(type(b))
+find('letters',A='1',B='2')
+a) String
+b) Tuple
+c) Dictionary
+d) An exception is thrown
+c 
+
+9. What will be the output of the following Python code?
+
+>>> a=(2,3,1,5)
+>>> a.sort()
+>>> a
+a) (1,2,3,5)
+b) (2,3,1,5)
+c) None
+d) Error, tuple has no attribute sort
+d 
+
+10. Is the following Python code valid?
+
+>>> a=(1,2,3)
+>>> b=a.update(4,)
+a) Yes, a=(1,2,3,4) and b=(1,2,3,4)
+b) Yes, a=(1,2,3) and b=(1,2,3,4)
+c) No because tuples are immutable
+d) No because wrong syntax for update() method
+c 
+
+11. What will be the output of the following Python code snippet?
+
+a=[1, 4, 3, 5, 2]
+b=[3, 1, 5, 2, 4]
+a==b
+set(a)==set(b)
+a)
+
+   True
+   False
+b)
+
+   False
+   False
+c)
+
+   False
+   True
+d)
+
+   True
+   True
+c 
+
+12. What will be the output of the following Python code snippet?
+
+l=[1, 2, 4, 5, 2, 'xy', 4]
+set(l)
+l
+a)
+
+{1, 2, 4, 5, 2, ‘xy’, 4}
+[1, 2, 4, 5, 2, ‘xy’, 4]
+b)
+
+{1, 2, 4, 5, ‘xy’}
+[1, 2, 4, 5, 2, ‘xy’, 4]
+c)
+
+{1, 5, ‘xy’}
+[1, 5, ‘xy’]
+d)
+
+{1, 2, 4, 5, ‘xy’}
+[1, 2, 4, 5, ‘xy’]
+b 
+
+13. What will be the output of the following Python code?
+
+s1={1, 2, 3}
+s2={3, 4, 5, 6}
+s1.difference(s2)
+s2.difference(s1)
+a)
+
+{1, 2}
+{4, 5, 6}
+b)
+
+{1, 2}
+{1, 2}
+c)
+
+{4, 5, 6}
+{1, 2}
+d)
+
+{4, 5, 6}
+{4, 5, 6}
+a 
+ 
+ 
+14. What will be the output of the following Python code?
+
+s1={1, 2, 3}
+s2={4, 5, 6}
+s1.isdisjoint(s2)
+s2.isdisjoint(s1)
+a)
+
+True
+False
+b)
+
+False 
+True
+c)
+
+True
+True
+d)
+
+False
+False
+c 
+
+15. What will be the output of the following Python code snippet?
+
+a = [0, 1, 2, 3]
+i = -2
+for i not in a:
+    print(i)
+    i += 1
+a) -2 -1
+b) 0
+c) error
+d) none of the mentioned
+c 
+
+16. What will be the output of the following Python code snippet?
+
+string = "my name is x"
+for i in ' '.join(string.split()):
+    print (i, end=", ")
+a) m, y, , n, a, m, e, , i, s, , x,
+b) m, y, , n, a, m, e, , i, s, , x
+c) my, name, is, x,
+d) error
+a 
+
+17. What will be the output of the following Python code?
+
+print('abcdefcdgh'.partition('cd'))
+a) (‘ab’, ‘cd’, ‘ef’, ‘cd’, ‘gh’)
+b) (‘ab’, ‘cd’, ‘efcdgh’)
+c) (‘abcdef’, ‘cd’, ‘gh’)
+d) error
+b 
+
+18. What will be the output of the following Python code?
+
+print('abcd'.partition('cd'))
+a) (‘ab’, ‘cd’, ”)
+b) (‘ab’, ‘cd’)
+c) error
+d) none of the mentioned
+a 
+
+19. What will be the output of the following Python code snippet?
+
+print('abcdefcdghcd'.split('cd', 0))
+a) [‘abcdefcdghcd’]
+b) ‘abcdefcdghcd’
+c) error
+d) none of the mentioned
+a 
+
+20. What will be the output of the following Python code snippet?
+
+print('abcdefcdghcd'.split('cd', -1))
+a) [‘ab’, ‘ef’, ‘gh’]
+b) [‘ab’, ‘ef’, ‘gh’, ”]
+c) (‘ab’, ‘ef’, ‘gh’)
+d) (‘ab’, ‘ef’, ‘gh’, ”)
+b 
+
+21. What will be the output of the following Python code snippet?
+
+print('ab'.zfill(5))
+a) 000ab
+b) 00ab0
+c) 0ab00
+d) ab000
+a 
+
+22. What will be the output of the following Python code snippet?
+
+print('+99'.zfill(5))
+a) 00+99
+b) 00099
+c) +0099
+d) +++99
+c 
+
+23. What is tail recursion?
+a) A recursive function that has two base cases
+b) A function where the recursive functions leads to an infinite loop
+c) A recursive function where the function doesn’t return anything and just prints the values
+d) A function where the recursive call is the last thing executed by the function
+d 
+
+24. Observe the following Python code?
+
+def a(n):
+    if n == 0:
+        return 0
+    else:
+        return n*a(n - 1)
+def b(n, tot):
+    if n == 0:
+        return tot
+    else:
+        return b(n-2, tot-2)
+a) Both a() and b() aren’t tail recursive
+b) Both a() and b() are tail recursive
+c) b() is tail recursive but a() isn’t
+d) a() is tail recursive but b() isn’t
+c 
+
+25. What will be the output of the following Python functions?
+
+x=3
+eval('x^2')
+a) Error
+b) 1
+c) 9
+d) 6
+b 

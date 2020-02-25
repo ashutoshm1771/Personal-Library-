@@ -12,3 +12,316 @@ b) False
 c) Error
 d) No output
 b 
+
+2. Which of these is false about recursion?
+a) Recursive function can be replaced by a non-recursive function
+b) Recursive functions usually take more memory space than non-recursive function
+c) Recursive functions run faster than non-recursive function
+d) Recursion makes programs easier to understand
+c 
+
+3. What will be the output of the following Python code?
+
+def test(i,j):
+    if(i==0):
+        return j
+    else:
+        return test(i-1,i+j)
+print(test(4,7))
+a) 13
+b) 7
+c) Infinite loop
+d) 17
+d 
+
+4. What will be the output of the following Python code?
+
+l=[]
+def convert(b):
+    if(b==0):
+        return l
+    dig=b%2
+    l.append(dig)
+    convert(b//2)
+convert(6)
+l.reverse()
+for i in l:
+    print(i,end="")
+a) 011
+b) 110
+c) 3
+d) Infinite loop
+b 
+
+5. What will be the output of the following Python code?
+
+def f1(x):
+    global x
+    x+=1
+    print(x)
+f1(15)
+print("hello")
+a) error
+b) hello
+c) 16
+d)	16
+	hello
+a 
+
+6. What will be the output of the following Python code?
+
+x=12
+def f1(a,b=x):
+    print(a,b)
+x=15
+f1(4)
+a) Error
+b) 12 4
+c) 4 12
+d) 4 15
+c 
+
+7. What will be the output of the following Python function?
+
+divmod(10.5,5)
+divmod(2.4,1.2)
+a)
+
+(2.00, 0.50)
+(2.00, 0.00)
+b)
+
+(2, 0.5)
+(2, 0)
+c)
+
+(2.0, 0.5)
+(2.0, 0.0)
+d)
+
+(2, 0.5)
+(2)
+c 
+
+8. The function complex(‘2-3j’) is valid but the function complex(‘2 – 3j’) is invalid.
+a) True
+b) False
+a
+
+9. What will be the output of the following Python code?
+
+a=10
+b=20
+def change():
+    global b
+    a=45
+    b=56
+change()
+print(a)
+print(b)
+a)
+
+10
+56
+b)
+
+45
+56
+c)
+
+10
+20
+d) Syntax Error
+a 
+
+10. What will be the output of the following Python code?
+
+def change(i = 1, j = 2):
+    i = i + j
+    j = j + 1
+    print(i, j)
+change(j = 1, i = 2)
+a) An exception is thrown because of conflicting values
+b) 1 2
+c) 3 3
+d) 3 2
+d 
+
+11. What will be the output of the following Python code?
+
+>>> a,b=6,7
+>>> a,b=b,a
+>>> a,b
+a) (6,7)
+b) Invalid syntax
+c) (7,6)
+d) Nothing is printed
+c 
+
+12. What will be the output of the following Python code?
+
+>>> import collections
+>>> a=collections.namedtuple('a',['i','j'])
+>>> obj=a(i=4,j=7)
+>>> obj
+a) a(i=4, j=7)
+b) obj(i=4, j=7)
+c) (4,7)
+d) An exception is thrown
+a 
+
+13. What will be the output of the following Python code snippet?
+
+for x in set('pqr'):
+	print(x*2)
+a)
+pp
+qq
+rr
+
+b)
+pqr
+pqr
+
+
+c) ppqqrr
+d) pqrpqr
+a 
+
+14. What will be the output of the following Python code snippet?
+
+{a**2 for a in range(4)}
+a) {1, 4, 9, 16}
+b) {0, 1, 4, 9, 16}
+c) Error
+d) {0, 1, 4, 9}
+d 
+
+15. What will be the output of the following Python code?
+
+s1={1, 2, 3}
+s2={4, 5, 6}
+s1.isdisjoint(s2)
+s2.isdisjoint(s1)
+a)
+
+True
+False
+b)
+
+False 
+True
+c)
+
+True
+True
+d)
+
+False
+False
+c 
+
+
+16. What will be the output of the following Python code?
+
+s1={3, 4}
+s2={1, 2}
+s3=set()
+i=0
+j=0
+for i in s1:
+    for j in s2:
+        s3.add((i,j))
+        i+=1
+        j+=1
+print(s3)
+a) {(3, 4), (1, 2)}
+b) Error
+c) {(4, 2), (3, 1), (4, 1), (5, 2)}
+d) {(3, 1), (4, 2)}
+d 
+
+17. What will be the output of the following Python code?
+
+string = "my name is x"
+for i in string:
+    print (i, end=", ")
+a) m, y, , n, a, m, e, , i, s, , x,
+b) m, y, , n, a, m, e, , i, s, , x
+c) my, name, is, x,
+d) error
+a 
+
+18. What will be the output of the following Python code?
+
+string = "my name is x"
+for i in string.split():
+    print (i, end=", ")
+a) m, y, , n, a, m, e, , i, s, , x,
+b) m, y, , n, a, m, e, , i, s, , x
+c) my, name, is, x,
+d) error
+c 
+
+19. What will be the output of the following Python code?
+
+print('xyxxyyzxxy'.lstrip('xyy'))
+a) zxxy
+b) xyxxyyzxxy
+c) xyxzxxy
+d) none of the mentioned
+a 
+
+20. What will be the output of the following Python code?
+
+print('cba'.maketrans('abc', '123'))
+a) {97: 49, 98: 50, 99: 51}
+b) {65: 49, 66: 50, 67: 51}
+c) 321
+d) 123
+a 
+
+21. What will be the output of the following Python code snippet?
+
+print('abcefd'.replace('cd', '12'))
+a) ab1ef2
+b) abcefd
+c) ab1efd
+d) ab12ed2
+b 
+
+22. What will be the output of the following Python code snippet?
+
+print('xyyxyyxyxyxxy'.replace('xy', '12', 0))
+a) xyyxyyxyxyxxy
+b) 12y12y1212x12
+c) 12yxyyxyxyxxy
+d) xyyxyyxyxyx12 
+a 
+
+23. What will be the output of the following Python code snippet?
+
+print('ab cd-ef'.title())
+a) Ab cd-ef
+b) Ab Cd-ef
+c) Ab Cd-Ef
+d) None of the mentioned
+c 
+
+24. What will be the output of the following Python code snippet?
+
+print('abcd'.translate('a'.maketrans('abc', 'bcd')))
+a) bcde
+b) abcd
+c) error
+d) bcdd 
+d 
+
+25. Is the following Python code valid?
+
+>>> a,b=1,2,3
+a) Yes, this is an example of tuple unpacking. a=1 and b=2
+b) Yes, this is an example of tuple unpacking. a=(1,2) and b=3
+c) No, too many values to unpack
+d) Yes, this is an example of tuple unpacking. a=1 and b=(2,3)
+c 

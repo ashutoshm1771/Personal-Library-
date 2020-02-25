@@ -1,0 +1,158 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Recursion
+	
+1. Which is the most appropriate definition for recursion?
+a) A function that calls itself
+b) A function execution instance that calls another execution instance of the same function
+c) A class method that calls another class method
+d) An in-built method that is automatically called
+b 
+
+2. Only problems that are recursively defined can be solved using recursion.
+a) True
+b) False
+b 
+
+3. Which of these is false about recursion?
+a) Recursive function can be replaced by a non-recursive function
+b) Recursive functions usually take more memory space than non-recursive function
+c) Recursive functions run faster than non-recursive function
+d) Recursion makes programs easier to understand
+c 
+
+4. Fill in the line of the following Python code for calculating the factorial of a number.
+
+def fact(num):
+    if num == 0: 
+        return 1
+    else:
+        return _____________________
+a) num*fact(num-1)
+b) (num-1)*(num-2)
+c) num*(num-1)
+d) fact(num)*fact(num-1)
+a 
+
+5. What will be the output of the following Python code?
+
+def test(i,j):
+    if(i==0):
+        return j
+    else:
+        return test(i-1,i+j)
+print(test(4,7))
+a) 13
+b) 7
+c) Infinite loop
+d) 17
+d 
+
+6. What will be the output of the following Python code?
+
+l=[]
+def convert(b):
+    if(b==0):
+        return l
+    dig=b%2
+    l.append(dig)
+    convert(b//2)
+convert(6)
+l.reverse()
+for i in l:
+    print(i,end="")
+a) 011
+b) 110
+c) 3
+d) Infinite loop
+b 
+
+7. What is tail recursion?
+a) A recursive function that has two base cases
+b) A function where the recursive functions leads to an infinite loop
+c) A recursive function where the function doesn’t return anything and just prints the values
+d) A function where the recursive call is the last thing executed by the function
+d 
+
+8. Observe the following Python code?
+
+def a(n):
+    if n == 0:
+        return 0
+    else:
+        return n*a(n - 1)
+def b(n, tot):
+    if n == 0:
+        return tot
+    else:
+        return b(n-2, tot-2)
+a) Both a() and b() aren’t tail recursive
+b) Both a() and b() are tail recursive
+c) b() is tail recursive but a() isn’t
+d) a() is tail recursive but b() isn’t
+c 
+
+9. Which of the following statements is false about recursion?
+a) Every recursive function must have a base case
+b) Infinite recursion can occur if the base case isn’t properly mentioned
+c) A recursive function makes the code easier to understand
+d) Every recursive function must have a return value
+d 
+
+10. What will be the output of the following Python code?
+
+def fun(n):
+    if (n > 100):
+        return n - 5
+    return fun(fun(n+11));
+ 
+print(fun(45))
+a) 50
+b) 100
+c) 74
+d) Infinite loop
+b 
+
+11. Recursion and iteration are the same programming approach.
+a) True
+b) False
+b 
+
+12. What happens if the base condition isn’t defined in recursive programs?
+a) Program gets into an infinite loop
+b) Program runs once
+c) Program runs n number of times where n is the argument given to the function
+d) An exception is thrown
+a 
+
+13. Which of these is not true about recursion?
+a) Making the code look clean
+b) A complex task can be broken into sub-problems
+c) Recursive calls take up less memory
+d) Sequence generation is easier than a nested iteration
+c 
+
+14. Which of these is not true about recursion?
+a) It’s easier to code some real-world problems using recursion than non-recursive equivalent
+b) Recursive functions are easy to debug
+c) Recursive calls take up a lot of memory
+d) Programs using recursion take longer time than their non-recursive equivalent
+b 
+
+15. What will be the output of the following Python code?
+
+def a(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return a(n-1)+a(n-2)
+for i in range(0,4):
+    print(a(i),end=" ")
+a) 0 1 2 3
+b) An exception is thrown
+c) 0 1 1 2 3
+d) 0 1 1 2
+d 

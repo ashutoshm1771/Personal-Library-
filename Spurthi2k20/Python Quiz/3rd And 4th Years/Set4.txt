@@ -1,0 +1,291 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	3rd and 4th Years 
+	Set 4
+	
+1. What is tail recursion?
+a) A recursive function that has two base cases
+b) A function where the recursive functions leads to an infinite loop
+c) A recursive function where the function doesn’t return anything and just prints the values
+d) A function where the recursive call is the last thing executed by the function
+d 
+
+2. Observe the following Python code?
+
+def a(n):
+    if n == 0:
+        return 0
+    else:
+        return n*a(n - 1)
+def b(n, tot):
+    if n == 0:
+        return tot
+    else:
+        return b(n-2, tot-2)
+a) Both a() and b() aren’t tail recursive
+b) Both a() and b() are tail recursive
+c) b() is tail recursive but a() isn’t
+d) a() is tail recursive but b() isn’t
+c 
+
+3. What will be the output of the following Python code?
+
+def f():
+    global a
+    print(a)
+    a = "hello"
+    print(a) 
+a = "world" 
+f()
+print(a)
+a)
+
+    hello
+    hello 
+    world
+b)
+
+    world 
+    hello
+    hello
+c)
+
+    hello
+    world
+    world
+d)
+
+    world
+    hello
+    world
+b 
+
+4. What will be the output of the following Python code?
+
+def f1(a,b=[]):
+    b.append(a)
+    return b
+print(f1(2,[3,4]))
+a) [3,2,4]
+b) [2,3,4]
+c) Error
+d) [3,4,2]
+d 
+
+5. What will be the output of the following Python function?
+
+list(enumerate([2, 3]))
+a) Error
+b) [(1, 2), (2, 3)]
+c) [(0, 2), (1, 3)]
+d) [(2, 3)]
+c 
+
+6. What will be the output of the following Python functions?
+
+x=3
+eval('x^2')
+a) Error
+b) 1
+c) 9
+d) 6
+b 
+
+7. What will be the output of the following Python code?
+
+def change(one, *two):
+   print(type(two))
+change(1,2,3,4)
+a) Integer
+b) Tuple
+c) Dictionary
+d) An exception is thrown
+b 
+
+8. If a function doesn’t have a return statement, which of the following does the function return?
+a) int
+b) null
+c) None
+d) An exception is thrown without the return statement
+c 
+
+9. Tuples can’t be made keys of a dictionary.
+a) True
+b) False
+b 
+
+10. Is the following Python code valid?
+
+>>> a=2,3,4,5
+>>> a
+a) Yes, 2 is printed
+b) Yes, [2,3,4,5] is printed
+c) No, too many values to unpack
+d) Yes, (2,3,4,5) is printed
+d 
+
+11. What will be the output of the following Python function?
+
+{x for x in 'abc'}
+{x*3 for x in 'abc'}
+a)
+
+    {abc}
+    aaa
+    bbb
+    ccc
+b)
+
+    abc
+   abc abc abc
+c)
+
+    {‘a’, ‘b’, ‘c’}
+   {‘aaa’, ‘bbb’, ‘ccc’}
+d)
+
+    {‘a’, ‘b’, ‘c’}
+    abc
+    abc
+    abc
+c 
+
+12. The output of the following code is: class<’set’>.
+
+type({})
+a) True
+b) False
+b 
+
+13. The ____________ function removes the first element of a set and the last element of a list.
+a) remove
+b) pop
+c) discard
+d) dispose
+b 
+
+
+14. The difference between the functions discard and remove is that:
+a) Discard removes the last element of the set whereas remove removes the first element of the set
+b) Discard throws an error if the specified element is not present in the set whereas remove does not throw an error in case of absence of the specified element
+c) Remove removes the last element of the set whereas discard removes the first element of the set
+d) Remove throws an error if the specified element is not present in the set whereas discard does not throw an error in case of absence of the specified element
+d 
+
+15. What will be the output of the following Python code snippet?
+
+a = [0, 1, 2, 3]
+for a[-1] in a:
+    print(a[-1])
+a) 0 1 2 3
+b) 0 1 2 2
+c) 3 3 3 3
+d) error
+b 
+
+16. What will be the output of the following Python code snippet?
+
+a = [0, 1, 2, 3]
+for a[0] in a:
+    print(a[0])
+a) 0 1 2 3
+b) 0 1 2 2
+c) 3 3 3 3
+d) error
+a 
+
+17. What will be the output of the following Python code?
+
+print('a'.maketrans('ABC', '123'))
+a) {97: 49, 98: 50, 99: 51}
+b) {65: 49, 66: 50, 67: 51}
+c) {97: 49}
+d) 1
+b 
+
+18. What will be the output of the following Python code?
+
+print('abcdef'.partition('cd'))
+a) (‘ab’, ‘ef’)
+b) (‘abef’)
+c) (‘ab’, ‘cd’, ‘ef’)
+d) 2
+c 
+
+19. What will be the output of the following Python code snippet?
+
+print('xyyxyyxyxyxxy'.replace('xy', '12', 100))
+a) xyyxyyxyxyxxy
+b) 12y12y1212x12
+c) none of the mentioned
+d) error
+b 
+
+20. What will be the output of the following Python code snippet?
+
+print('abcdefcdghcd'.split('cd'))
+a) [‘ab’, ‘ef’, ‘gh’]
+b) [‘ab’, ‘ef’, ‘gh’, ”]
+c) (‘ab’, ‘ef’, ‘gh’)
+d) (‘ab’, ‘ef’, ‘gh’, ”)
+b 
+
+21. What will be the output of the following Python code snippet?
+
+print('abcd'.translate({97: 98, 98: 99, 99: 100}))
+a) bcde
+b) abcd
+c) error
+d) none of the mentioned
+d 
+
+22. What will be the output of the following Python code snippet?
+
+print('abcd'.translate({'a': '1', 'b': '2', 'c': '3', 'd': '4'}))
+a) abcd
+b) 1234
+c) error
+d) none of the mentioned
+a 
+
+23. What will be the output of the following Python code snippet?
+
+print('abcd'.translate('a'.maketrans('abc', 'bcd')))
+a) bcde
+b) abcd
+c) error
+d) bcdd 
+d 
+
+24. What will be the output of the following Python code?
+
+def change(i = 1, j = 2):
+    i = i + j
+    j = j + 1
+    print(i, j)
+change(j = 1, i = 2)
+a) An exception is thrown because of conflicting values
+b) 1 2
+c) 3 3
+d) 3 2
+d 
+
+25. What will be the output of the following Python code?
+
+l=[]
+def convert(b):
+    if(b==0):
+        return l
+    dig=b%2
+    l.append(dig)
+    convert(b//2)
+convert(6)
+l.reverse()
+for i in l:
+    print(i,end="")
+a) 011
+b) 110
+c) 3
+d) Infinite loop
+b 

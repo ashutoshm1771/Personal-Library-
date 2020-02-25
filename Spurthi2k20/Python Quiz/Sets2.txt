@@ -1,0 +1,163 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Set2
+	
+1. Which of the following functions will return the symmetric difference between two sets, x and y?
+a) x | y
+b) x ^ y
+c) x & y
+d) x – y
+c 
+
+2. What will be the output of the following Python code snippet?
+
+z=set('abc$de')
+'a' in z
+a) True
+b) False
+c) No output
+d) Error
+a 
+
+3. What will be the output of the following Python code snippet?
+
+z=set('abc')
+z.add('san')
+z.update(set(['p', 'q']))
+z
+a) {‘abc’, ‘p’, ‘q’, ‘san’}
+b) {‘a’, ‘b’, ‘c’, [‘p’, ‘q’], ‘san}
+c) {‘a’, ‘c’, ‘c’, ‘p’, ‘q’, ‘s’, ‘a’, ‘n’}
+d) {‘a’, ‘b’, ‘c’, ‘p’, ‘q’, ‘san’}
+d 
+
+4. What will be the output of the following Python code snippet?
+
+s=set([1, 2, 3])
+s.union([4, 5])
+s|([4, 5])
+a)
+
+   {1, 2, 3, 4, 5}
+   {1, 2, 3, 4, 5}
+b)
+
+   Error
+   {1, 2, 3, 4, 5}
+c)
+
+   {1, 2, 3, 4, 5}
+   Error
+d)
+
+   Error
+   Error
+c 
+
+5. What will be the output of the following Python code snippet?
+
+for x in set('pqr'):
+	print(x*2)
+a)
+pp
+qq
+rr
+
+b)
+pqr
+pqr
+
+
+c) ppqqrr
+d) pqrpqr
+a 
+
+6. What will be the output of the following Python code snippet?
+
+{a**2 for a in range(4)}
+a) {1, 4, 9, 16}
+b) {0, 1, 4, 9, 16}
+c) Error
+d) {0, 1, 4, 9}
+d 
+
+7. What will be the output of the following Python function?
+
+{x for x in 'abc'}
+{x*3 for x in 'abc'}
+a)
+
+    {abc}
+    aaa
+    bbb
+    ccc
+b)
+
+    abc
+   abc abc abc
+c)
+
+    {‘a’, ‘b’, ‘c’}
+   {‘aaa’, ‘bbb’, ‘ccc’}
+d)
+
+    {‘a’, ‘b’, ‘c’}
+    abc
+    abc
+    abc
+c 
+
+8. The output of the following code is: class<’set’>.
+
+type({})
+a) True
+b) False
+b 
+
+9. What will be the output of the following Python code snippet?
+
+a=[1, 4, 3, 5, 2]
+b=[3, 1, 5, 2, 4]
+a==b
+set(a)==set(b)
+a)
+
+   True
+   False
+b)
+
+   False
+   False
+c)
+
+   False
+   True
+d)
+
+   True
+   True
+c 
+
+10. What will be the output of the following Python code snippet?
+
+l=[1, 2, 4, 5, 2, 'xy', 4]
+set(l)
+l
+a)
+
+{1, 2, 4, 5, 2, ‘xy’, 4}
+[1, 2, 4, 5, 2, ‘xy’, 4]
+b)
+
+{1, 2, 4, 5, ‘xy’}
+[1, 2, 4, 5, 2, ‘xy’, 4]
+c)
+
+{1, 5, ‘xy’}
+[1, 5, ‘xy’]
+d)
+
+{1, 2, 4, 5, ‘xy’}
+[1, 2, 4, 5, ‘xy’]
+b 

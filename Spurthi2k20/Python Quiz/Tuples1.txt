@@ -1,0 +1,125 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	Tuples1
+	
+1. Is the following Python code valid?
+
+>>> a,b,c=1,2,3
+>>> a,b,c
+a) Yes, [1,2,3] is printed
+b) No, invalid syntax
+c) Yes, (1,2,3) is printed
+d) 1 is printed
+c 
+
+2. What will be the output of the following Python code?
+
+a = ('check',)
+n = 2
+for i in range(int(n)):
+    a = (a,)
+    print(a)
+a) Error, tuples are immutable
+b)
+
+(('check',),)
+((('check',),),)
+c) ((‘check’,)’check’,)
+d)
+
+(('check',)’check’,)
+((('check',)’check’,)’check’,)
+b 
+
+3. Is the following Python code valid?
+
+>>> a,b=1,2,3
+a) Yes, this is an example of tuple unpacking. a=1 and b=2
+b) Yes, this is an example of tuple unpacking. a=(1,2) and b=3
+c) No, too many values to unpack
+d) Yes, this is an example of tuple unpacking. a=1 and b=(2,3)
+c 
+
+4. What will be the output of the following Python code?
+
+>>> a=(1,2)
+>>> b=(3,4)
+>>> c=a+b
+>>> c
+a) (4,6)
+b) (1,2,3,4)
+c) Error as tuples are immutable
+d) None
+b 
+
+5. What will be the output of the following Python code?
+
+>>> a,b=6,7
+>>> a,b=b,a
+>>> a,b
+a) (6,7)
+b) Invalid syntax
+c) (7,6)
+d) Nothing is printed
+c 
+
+6. What will be the output of the following Python code?
+
+>>> import collections
+>>> a=collections.namedtuple('a',['i','j'])
+>>> obj=a(i=4,j=7)
+>>> obj
+a) a(i=4, j=7)
+b) obj(i=4, j=7)
+c) (4,7)
+d) An exception is thrown
+a 
+
+7. Tuples can’t be made keys of a dictionary.
+a) True
+b) False
+b 
+
+8. Is the following Python code valid?
+
+>>> a=2,3,4,5
+>>> a
+a) Yes, 2 is printed
+b) Yes, [2,3,4,5] is printed
+c) No, too many values to unpack
+d) Yes, (2,3,4,5) is printed
+d 
+
+9. What will be the output of the following Python code?
+
+>>> a=(2,3,1,5)
+>>> a.sort()
+>>> a
+a) (1,2,3,5)
+b) (2,3,1,5)
+c) None
+d) Error, tuple has no attribute sort
+d 
+
+10. Is the following Python code valid?
+
+>>> a=(1,2,3)
+>>> b=a.update(4,)
+a) Yes, a=(1,2,3,4) and b=(1,2,3,4)
+b) Yes, a=(1,2,3) and b=(1,2,3,4)
+c) No because tuples are immutable
+d) No because wrong syntax for update() method
+c 
+
+11. What will be the output of the following Python code?
+
+>>> a=[(2,4),(1,2),(3,9)]
+>>> a.sort()
+>>> a
+a) [(1, 2), (2, 4), (3, 9)]
+b) [(2,4),(1,2),(3,9)]
+c) Error because tuples are immutable
+d) Error, tuple has no sort attribute
+a 
+

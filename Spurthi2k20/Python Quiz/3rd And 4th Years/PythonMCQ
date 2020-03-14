@@ -1,0 +1,66 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	3rd and 4th Years 
+	Set 7
+	
+1. What will be the output of the following Python code?
+
+hex(255), int('FF', 16), 0xFF
+a) [0xFF, 255, 16, 255]
+b) (‘0xff’, 155, 16, 255)
+c) Error
+d) (‘0xff’, 255, 255)
+d 
+
+2. The output of the two codes shown below is the same.
+
+i. bin((2**16)-1)
+ii. '{}'.format(bin((2**16)-1))
+a) True
+b) False
+a 
+
+3. Which of these is not true about recursion?
+a) Making the code look clean
+b) A complex task can be broken into sub-problems
+c) Recursive calls take up less memory
+d) Sequence generation is easier than a nested iteration
+c 
+
+4. Which of these is not true about recursion?
+a) It’s easier to code some real-world problems using recursion than non-recursive equivalent
+b) Recursive functions are easy to debug
+c) Recursive calls take up a lot of memory
+d) Programs using recursion take longer time than their non-recursive equivalent
+b 
+
+5. Read the following Python code carefully and point out the global variables?
+
+y, z = 1, 2
+def f():
+    global x
+    x = y+z
+a) x
+b) y and z
+c) x, y and z
+d) Neither x, nor y, nor z
+c 
+
+6. What will be the output of the following Python code?
+
+def a(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return a(n-1)+a(n-2)
+for i in range(0,4):
+    print(a(i),end=" ")
+a) 0 1 2 3
+b) An exception is thrown
+c) 0 1 1 2 3
+d) 0 1 1 2
+d 
+

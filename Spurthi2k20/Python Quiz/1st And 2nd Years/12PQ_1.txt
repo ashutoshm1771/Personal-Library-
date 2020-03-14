@@ -1,0 +1,224 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	1st and 2nd Years 
+	Set 1
+
+1. Is Python case sensitive when dealing with identifiers?
+a) yes
+b) no
+c) machine dependent
+d) none of the mentioned
+
+2. What is the maximum possible length of an identifier?
+a) 31 characters
+b) 63 characters
+c) 79 characters
+d) none of the mentioned
+
+3. The value of the expressions 4/(3*(2-1)) and 4/3*(2-1) is the same.
+a) True
+b) False
+
+4. What will be the value of the following Python expression?
+
+4 + 3 % 5
+a) 4
+b) 7
+c) 2
+d) 0
+
+5. What will be the output of the following Python expression?
+
+print(4.00/(2.0+2.0))
+a) Error
+b) 1.0
+c) 1.00
+d) 1
+
+6. What will be the value of X in the following Python expression?
+
+X = 2+9*((3*12)-8)/10
+a) 30.0
+b) 30.8
+c) 28.4
+d) 27.2
+
+7. What is the output of print 0.1 + 0.2 == 0.3?
+a) True
+b) False
+c) Machine dependent
+d) Error
+
+8. Which of the following is not a complex number?
+a) k = 2 + 3j
+b) k = complex(2, 3)
+c) k = 2 + 3l
+d) k = 2 + 3J
+
+9. Which of these in not a core data type?
+a) Lists
+b) Dictionary
+c) Tuples
+d) Class
+
+
+10. Given a function that does not return any value, What value is thrown by default when executed in shell.
+a) int
+b) bool
+c) void
+d) None
+
+11. It is not possible for the two’s complement value to be equal to the original value in any case.
+a) True
+b) False
+
+12. The one’s complement of 110010101 is:
+a) 001101010
+b) 110010101
+c) 001101011
+d) 110010100
+
+13. What will be the output of the following Python code snippet if x=1?
+
+x<<2
+a) 8
+b) 1
+c) 2
+d) 4
+
+14. What will be the output of the following Python expression?
+
+bin(29)
+a) ‘0b10111’
+b) ‘0b11101’
+c) ‘0b11111’
+d) ‘0b11011’
+
+15. Which is the correct operator for power(xy)?
+a) X^y
+b) X**y
+c) X^^y
+d) None of the mentioned
+
+16. Which one of these is floor division?
+a) /
+b) //
+c) %
+d) None of the mentioned
+
+17. What will be the output of the following Python code?
+
+def mk(x):
+    def mk1():
+        print("Decorated")
+        x()
+    return mk1
+def mk2():
+    print("Ordinary")
+p = mk(mk2)
+p()
+a)
+
+    Decorated
+    Decorated
+b)
+
+    Ordinary
+    Ordinary
+c)
+
+    Ordinary
+    Decorated
+d)
+
+    Decorated
+    Ordinary
+
+18. In the following Python code, which function is the decorator?
+
+def mk(x):
+    def mk1():
+        print("Decorated")
+        x()
+    return mk1
+def mk2():
+    print("Ordinary")
+p = mk(mk2)
+p()
+a) p()
+b) mk()
+c) mk1()
+d) mk2()
+
+19. What will be the output of the following Python code?
+
+l=list('HELLO')
+'first={0[0]}, third={0[2]}'.format(l)
+a) ‘first=H, third=L’
+b) ‘first=0, third=2’
+c) Error
+d) ‘first=0, third=L’
+
+20. What will be the output of the following Python code?
+
+l=list('HELLO')
+p=l[0], l[-1], l[1:3]
+'a={0}, b={1}, c={2}'.format(*p)
+a) Error
+b) “a=’H’, b=’O’, c=(E, L)”
+c) “a=H, b=O, c=[‘E’, ‘L’]”
+d) Junk value
+
+21. What will be the output of the following Python code snippet?
+
+'%d %s %g you' %(1, 'hello', 4.0)
+a) Error
+b) 1 hello you 4.0
+c) 1 hello 4 you
+d) 1 4 hello you
+
+22. The output of which of the codes shown below will be: “There are 4 blue birds.”?
+a) ‘There are %g %d birds.’ %4 %blue
+b) ‘There are %d %s birds.’ %(4, blue)
+c) ‘There are %s %d birds.’ %[4, blue]
+d) ‘There are %d %s birds.’ 4, blue
+
+23. What will be the output of the following Python code snippet?
+
+X=”hi”
+print(“05d”%X)
+a) 00000hi
+b) 000hi
+c) hi000
+d) error
+
+24. What will be the output of the following Python code snippet?
+
+X=”san-foundry”
+print(“%56s”,X)
+a) 56 blank spaces before san-foundry
+b) 56 blank spaces before san and foundry
+c) 56 blank spaces after san-foundry
+d) no change
+
+25. What will be the output of the following Python code snippet?
+
+bool(‘False’)
+bool()
+a)
+
+   True 
+   True
+b)
+
+   False
+   True
+c)
+
+   False
+   False
+d)
+
+   True
+   False

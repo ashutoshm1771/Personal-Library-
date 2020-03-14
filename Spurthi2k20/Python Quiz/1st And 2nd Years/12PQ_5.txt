@@ -1,4 +1,4 @@
-Ôªø			Python MCQs 
+			Python MCQs 
 			Spurthi 2k20
 		
 	1st and 2nd Years 
@@ -9,14 +9,12 @@ a) abc = 1,000,000
 b) a b c = 1000 2000 3000
 c) a,b,c = 1000, 2000, 3000
 d) a_b_c = 1,000,000
-b 
 
 2. Which of the following cannot be a variable?
 a) __init__
 b) in
 c) it
 d) on
-b 
 
 3. What is the value of the following expression?
 
@@ -25,7 +23,6 @@ a) (1.0, 4.0)
 b) (1.0, 1.0)
 c) (4.0. 1.0)
 d) (4.0, 4.0)
-a 
 
 4. What is the value of the following expression?
 
@@ -34,7 +31,6 @@ a) 8
 b) 8.0
 c) 8.3
 d) 8.33
-b
 
 5. What will be the value of the following Python expression?
 
@@ -43,26 +39,22 @@ a) 3
 b) 7
 c) 77
 d) 0
-b 
 
 6. The expression 2**2**3 is evaluates as: (2**2)**3.
 a) True
 b) False
-b 
 
-7. What is the result of round(0.5) ‚Äì round(-0.5)?
+7. What is the result of round(0.5) ñ round(-0.5)?
 a) 1.0
 b) 2.0
 c) 0.0
 d) None of the mentioned
-b 
 
 8. What does 3 ^ 4 evaluate to?
 a) 81
 b) 12
 c) 0.75
 d) 7
-d 
 
 9. What data type is the object below?
 
@@ -71,21 +63,18 @@ a) list
 b) dictionary
 c) array
 d) tuple
-a 
 
 10. Which of the following results in a SyntaxError?
-a) ‚Äò‚ÄùOnce upon a time‚Ä¶‚Äù, she said.‚Äô
-b) ‚ÄúHe said, ‚ÄòYes!'‚Äù
-c) ‚Äò3\‚Äô
-d) ‚Äù‚ÄôThat‚Äôs okay‚Äù‚Äô
-c 
+a) ëîOnce upon a timeÖî, she said.í
+b) ìHe said, ëYes!'î
+c) ë3\í
+d) îíThatís okayîí
 
-11. What is the two‚Äôs complement of -44?
+11. What is the twoís complement of -44?
 a) 1011011
 b) 11010100
 c) 11101011
 d) 10110011
-b 
 
 12. What will be the output of the following Python expression?
 
@@ -93,17 +82,15 @@ b
 a) 101
 b) -101
 c) 100
-d) -100
-b 
+d) -100 
 
 13. What is the value of the following Python expression?
 
 bin(0x8)
-a) ‚Äò0bx1000‚Äô
+a) ë0bx1000í
 b) 8
 c) 1000
-d) ‚Äò0b1000‚Äô
-d 
+d) ë0b1000í 
 
 14. What will be the output of the following Python expression?
 
@@ -112,19 +99,16 @@ a) 115
 b) 116
 c) 117
 d) 118
-c 
 
 15. The expression Int(x) implies that the variable x is converted to integer.
 a) True
 b) False
-a 
 
 16. Which one of the following has the highest precedence in the expression?
 a) Exponential
 b) Addition
 c) Multiplication
 d) Parentheses
-d 
 
 17. The following python code can work with ____ parameters.
 
@@ -137,7 +121,6 @@ a) 2
 b) 1
 c) any number of
 d) 0
-c 
 
 18. What will be the output of the following Python code?
 
@@ -162,35 +145,31 @@ b)
     hello
 c) *****
 d) hello
-d 
 
 19. What will be the output of the following Python code?
 
 '{0:f}, {1:2f}, {2:05.2f}'.format(1.23456, 1.23456, 1.23456)
 a) Error
-b) ‚Äò1.234560, 1.22345, 1.23‚Äô
+b) ë1.234560, 1.22345, 1.23í
 c) No output
-d) ‚Äò1.234560, 1.234560, 01.23‚Äô
-d 
+d) ë1.234560, 1.234560, 01.23í 
 
 20. What will be the output of the following Python code?
 
 '%.2f%s' % (1.2345, 99)
-a) ‚Äò1.2345‚Äô, ‚Äò99‚Äô
-b) ‚Äò1.2399‚Äô
-c) ‚Äò1.234599‚Äô
+a) ë1.2345í, ë99í
+b) ë1.2399í
+c) ë1.234599í
 d) 1.23, 99
-b 
 
 21. What will be the output of the following Python code?
 
 s='{0}, {1}, and {2}'
 s.format('hello', 'good', 'morning')
-a) ‚Äòhello good and morning‚Äô
-b) ‚Äòhello, good, morning‚Äô
-c) ‚Äòhello, good, and morning‚Äô
+a) ëhello good and morningí
+b) ëhello, good, morningí
+c) ëhello, good, and morningí
 d) Error
-c 
 
 22. What will be the output of the following Python code?
 
@@ -199,8 +178,7 @@ s%('mumbai', 'kolkata', 'delhi')
 a) mumbai kolkata & delhi
 b) Error
 c) No output
-d) ‚Äòmumbai, kolkata & delhi‚Äô
-d
+d) ëmumbai, kolkata & delhií
 
 23. What will be the output of the following Python expression if x=22.19?
 
@@ -209,21 +187,18 @@ a) 22.1900
 b) 22.00000
 c) 22.19
 d) 22.20
-c 
 
 24. The expression shown below results in an error.
 
 print("-%5d0",989)
 a) True
 b) False
-b 
 
 25. What will be the output of the following Python code?
 
 l=[1, 0, 2, 0, 'hello', '', []]
 list(filter(bool, l))
 a) Error
-b) [1, 0, 2, 0, ‚Äòhello‚Äô, ‚Äù, []]
-c) [1, 0, 2, ‚Äòhello‚Äô, ‚Äù, []]
-d) [1, 2, ‚Äòhello‚Äô]
-d 
+b) [1, 0, 2, 0, ëhelloí, î, []]
+c) [1, 0, 2, ëhelloí, î, []]
+d) [1, 2, ëhelloí]

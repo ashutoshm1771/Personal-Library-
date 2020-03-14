@@ -1,0 +1,224 @@
+			Python MCQs 
+			Spurthi 2k20
+		
+	1st and 2nd Years 
+	Set 3
+
+1. Why are local variable names beginning with an underscore discouraged?
+a) they are used to indicate a private variables of a class
+b) they confuse the interpreter
+c) they are used to indicate global variables
+d) they slow down execution
+
+2. Which of the following is not a keyword?
+a) eval
+b) assert
+c) nonlocal
+d) pass
+
+3. What will be the value of x in the following Python expression?
+
+x = int(43.55+2/2)
+a) 43
+b) 44
+c) 22
+d) 23
+
+
+4. What is the value of the following expression?
+
+2+4.00, 2**4.0
+a) (6.0, 16.0)
+b) (6.00, 16.00)
+c) (6, 16)
+d) (6.00, 16.0)
+
+5. Which among the following list of operators has the highest precedence?
+
+ +, -, **, %, /, <<, >>, |
+a) <<, >>
+b) **
+c) |
+d) %
+
+6. What will be the value of the following Python expression?
+
+float(4+int(2.39)%2)
+a) 5.0
+b) 5
+c) 4.0
+d) 4
+
+7. What does ~~~~~~5 evaluate to?
+a) +5
+b) -11
+c) +11
+d) -5
+
+8. Which of the following is incorrect?
+a) x = 0b101
+b) x = 0x4f5
+c) x = 19023
+d) x = 03964 
+
+9. What is the return type of function id?
+a) int
+b) float
+c) bool
+d) dict
+
+10. In python we do not specify types, it is directly interpreted by the compiler, 
+so consider the following operation to be performed.
+
+	>>>x = 13 ? 2
+objective is to make sure x has a integer value, select all that apply (python 3.xx)
+a) x = 13 // 2
+b) x = int(13 / 2)
+c) x = 13 % 2
+d) All of the mentioned
+
+
+11. Any odd number on being AND-ed with ________ always gives 1. Hint: Any even number on being AND-ed with this value always gives 0.
+a) 10
+b) 2
+c) 1
+d) 0
+
+
+12. What will be the value of the following Python expression?
+
+ bin(10-2)+bin(12^4)
+a) 0b10000
+b) 0b10001000
+c) 0b1000b1000
+d) 0b10000b1000
+
+13. To find the decimal value of 1111, that is 15, we can use the function:
+a) int(1111,10)
+b) int(‘1111’,10)
+c) int(1111,2)
+d) int(‘1111’,2)
+
+14. What will be the output of the following Python expression if x=15 and y=12?
+
+x & y
+a) b1101
+b) 0b1101
+c) 12
+d) 1101
+
+15. Mathematical operations can be performed on a string.
+a) True
+b) False
+
+16. Operators with the same precedence are evaluated in which manner?
+a) Left to Right
+b) Right to Left
+c) Can’t say
+d) None of the mentioned
+
+17. The two snippets of the following Python codes are equivalent.
+
+CODE 1
+  @f
+def f1():
+        print(“Hello”)
+CODE 2
+  def f1():
+         print(“Hello”)
+f1 = f(f1)
+a) True
+b) False
+
+18. What will be the output of the following Python function?
+
+def f(p, q):
+	return p%q
+f(0, 2)
+f(2, 0)
+a)
+
+    0
+    0
+b)
+
+    Zero Division Error
+    Zero Division Error
+c)
+
+    0
+    Zero Division Error
+d)
+
+    Zero Division Error
+    
+19. The output of the two codes shown below is the same.
+
+i. bin((2**16)-1)
+ii. '{}'.format(bin((2**16)-1))
+a) True
+b) False
+
+20. What will be the output of the following Python code?
+
+'{a}{b}{a}'.format(a='hello', b='world')
+a) ‘hello world’
+b) ‘hello’ ‘world’ ‘hello’
+c) ‘helloworldhello’
+d) ‘hello’ ‘hello’ ‘world’
+
+21. What will be the output of the following Python code snippet?
+
+x=3.3456789
+'%-6.2f | %05.2f | %+06.1f' %(x, x, x)
+a) ‘3.35 | 03.35 | +003.3’
+b) ‘3.3456789 | 03.3456789 | +03.3456789’
+c) Error
+d) ‘3.34 | 03.34 | 03.34+’
+
+22. What will be the output of the following Python code snippet?
+
+x=3.3456789
+'%s' %x, str(x)
+a) Error
+b) (‘3.3456789’, ‘3.3456789’)
+c) (3.3456789, 3.3456789)
+d) (‘3.3456789’, 3.3456789)
+
+23. Which of the following formatting options can be used in order to add ‘n’ blank spaces after a given string ‘S’?
+a) print(“-ns”%S)
+b) print(“-ns”%S)
+c) print(“%ns”%S)
+d) print(“%-ns”%S)
+
+24. What will be the output of the following Python expression if X = -122?
+
+print("-%06d"%x)
+a) -000122
+b) 000122
+c) –00122
+d) -00122
+
+25. What will be the output of the following Python code snippet?
+
+not(3>4)
+not(1&1)
+a)
+
+   True
+   True
+b)
+
+   True
+   False
+c)
+
+   False
+   True
+d)
+
+   False
+   False
+
+
+

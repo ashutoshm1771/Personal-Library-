@@ -1,0 +1,164 @@
+body {
+    background-color: #f8f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: #be7a9c;
+    font-size: 15px;
+    width: 100%;
+}
+
+.header-name {
+    font-size: 20px;
+}
+
+.nav-list {
+    list-style-type: none;
+    float: right;
+}
+
+.nav-list-item  {
+    display: inline-block;
+}
+
+.nav-link {
+    color: #0f0e0e;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.container {
+    
+}
+
+.container-item {
+    background-color: #f3d6d6;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.image {
+    width: 250px;
+}
+
+.profile-image-caption {
+    font-size: 30px;
+    color: rgb(75, 57, 66);
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-box {
+    background-color: #d6a1aa;
+    margin: 0 15px 15px 15px;
+    border-radius: 2%;
+    padding: 20px;
+}
+
+.card-title{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.card-description {
+    margin: 0;
+}
+
+
+
+/* Generic classes */
+
+.vertical-center {
+    margin: auto 0px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.cursive-font {
+    font-family: cursive;
+}
+
+.button {
+    background-color: #d6a1aa;
+    border: none;
+    color: rgb(15, 15, 15);
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 18px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button-inverse {
+    background-color: #f3d6d6;
+}

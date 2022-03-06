@@ -31,19 +31,27 @@ body {
     padding: 5px;
 }
 
+.nav-list .icon {
+    display: none;
+  }
+
 .container {
     
 }
 
 .container-item {
     background-color: #f3d6d6;
-    border-radius: 5%;
+    border-radius: 10px;
     margin: 10px;
     padding: 20px;
 }
 
+.about-bar {
+    display: flex;
+}
+
 .image {
-    width: 250px;
+    max-width: 250px;
 }
 
 .profile-image-caption {
@@ -53,15 +61,16 @@ body {
 
 .card {
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 15px;
 }
 
 .card-box {
     background-color: #d6a1aa;
-    margin: 0 15px 15px 15px;
     border-radius: 2%;
     padding: 20px;
+    text-align: justify;
 }
 
 .card-title{
@@ -73,6 +82,45 @@ body {
     margin: 0;
 }
 
+@media only screen and (max-width: 940px) { 
+    .card {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .card {
+        grid-template-columns: auto;
+    }
+    .about-bar {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-list .nav-list-item:not(:first-child) {display: none;}
+    .nav-list a.icon {
+        float: right;
+        display: block;
+    }
+    .nav-list.responsive {position: relative;}
+    .nav-list.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav-list.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+  }
+
+@media only screen and (max-width: 300px) {
+    .image {
+        width: 150px;
+    }
+}
 
 
 /* Generic classes */

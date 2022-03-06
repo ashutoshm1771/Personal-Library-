@@ -13,7 +13,7 @@
     <div id="header" class="top-nav position-fixed d-flex justify-content-between mb-20 cursive-font">
         <div id="headername" class="header-name ml-20 vertical-center">Albert Einstein</div>
         <div class="nav mr-20">
-            <ul class="nav-list m-0 p-20">
+            <ul class="nav-list m-0 p-20" id="myTopnav">
                 <li class="nav-list-item"><a class="nav-link" href="#header"><i class="fa fa-home"></i></a></li>
                 <li class="nav-list-item"><a class="nav-link" href="#about">About</a></li>
                 <li class="nav-list-item"><a class="nav-link" href="#paper">Paper</a></li>
@@ -21,11 +21,14 @@
                 <li class="nav-list-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
                 <li class="nav-list-item"><a class="nav-link" href="#images">Images</a></li>
                 <li class="nav-list-item"><a class="nav-link" href="#blogs">Blogs</a></li>
+                <li class="nav-list-item"><a class="nav-link icon" href="javascript:void(0);" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a></li>
             </ul>
         </div>
     </div>
     <div class="container pt-70 cursive-font">
-        <div id="about" class="container-item d-flex">
+        <div id="about" class="container-item about-bar">
             <div class="text-center flex-2">
                 <div><img src="profile-photo.png" class="image" alt="Image"></div>
                 <div class="profile-image-caption mt-20"><b>Albert Einstein</b></div>
@@ -137,31 +140,31 @@
         <div id="images" class="container-item">
             <h2>IMAGES</h2>
             <div class="card">
-                <div class="card-box">
+                <div class="card-box text-center">
                     <div class="card-title">Candid Pic</div>
                     <div class="card-description mt-20">
                         <img src="profile-photo.png" class="image" alt="Image">
                     </div>
                 </div>
-                <div class="card-box">
+                <div class="card-box text-center">
                     <div class="card-title">Posed pic</div>
                     <div class="card-description mt-20">
                         <img src="profile-photo.png" class="image" alt="Image">
                     </div>
                 </div>
-                <div class="card-box">
+                <div class="card-box text-center">
                     <div class="card-title">Group pic</div>
                     <div class="card-description mt-20">
                         <img src="profile-photo.png" class="image" alt="Image">
                     </div>
                 </div>
-                <div class="card-box">
+                <div class="card-box text-center">
                     <div class="card-title">Garda udega pic</div>
                     <div class="card-description mt-20">
                         <img src="profile-photo.png" class="image" alt="Image">
                     </div>
                 </div>
-                <div class="card-box">
+                <div class="card-box text-center">
                     <div class="card-title">Decathlon pic</div>
                     <div class="card-description mt-20">
                         <img src="profile-photo.png" class="image" alt="Image">
@@ -193,5 +196,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "nav-list") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav-list";
+          }
+        }
+    </script>
 </body>
 </html>

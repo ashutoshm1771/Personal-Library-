@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalini Mishra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        body {
+        background-color: #f8f4f4;
+        margin: 0;
+        padding: 0;
+        background-image: url("bg-image.jpg");
+        background-size: auto 2000px;
+        }
+
+        .top-nav {
+            background-color: #c09baa;
+            font-size: 15px;
+            width: 100%;
+        }
+
+        .header-name {
+            font-size: 20px;
+        }
+
+        .nav {
+            cursor: pointer;
+            transition: display 3s ease;
+        }
+
+        .nav:hover .nav-icon {
+            background-color: #f3d6d6;
+        }
+
+        .nav-icon {
+            margin-left: 90px;
+        }
+
+        .nav-list {
+            list-style-type: none;
+            float: right;
+            overflow:hidden;
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            margin-right: 30px;
+            z-index: 1;
+            background-color: #f3d6d6;
+            -webkit-transition: all 3s ease;
+            -moz-transition: all 3s ease;
+            transition: all 3s ease;
+        }
+
+        .auto-height {
+            height: auto;
+            opacity: 1;
+        }
+
+        .nav-list-item  {
+            display: inline-block;
+        }
+
+        .nav-list-item a:hover {
+            background-color: #c09baa;
+        }
+
+        .nav-link {
+            display: block;
+            color: #0f0e0e;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+            padding: 10px;
+        }
+
+        .container-item {
+            background-color: rgba(243,214,214,0.5);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            font-family: cursive;
+        }
+
+        .about-bar {
+            display: flex;
+        }
+
+        .image {
+            max-width: 250px;
+        }
+
+        .profile-image-caption {
+            font-size: 30px;
+            color: rgb(75, 57, 66);
+        }
+
+        .card {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 20px 15px;
+        }
+
+        .card-box {
+            background-color: rgba(214,161,161,0.8);
+            border-radius: 2%;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .card-title{
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        .card-description {
+            margin: 0;
+        }
+
+        .skills-wrapper {
+            margin-top: 10px;
+        }
+
+        .skill-label {
+            padding-top: 20px;
+        }
+
+        .skill-wrapper {
+            background-color: rgb(190, 117, 144);
+            width: 80%;
+            height:10px;
+        }
+
+        .skill-element {
+            background-color: rgb(194, 92, 126);
+            padding: 5px;    
+        }
+
+        .project {
+            display: flex;
+        }
+
+        .footer {
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            gap: 20px 15px;
+        }
+
+        .footer-item {
+            background-color: #d6a1aa;
+            border-radius: 2%;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            width: fit-content;
+        }
+
+        .footer-image {
+            height: 25px;
+        }
+
+        @media only screen and (max-width: 940px) { 
+            .card {
+                grid-template-columns: auto auto;
+            }
+
+            .footer {
+                grid-template-columns: auto auto auto;
+            }
+        }
+
+        @media only screen and (max-width: 900px) {
+            .nav-list .nav-list-item:not(:first-child) {display: none;}
+        }
+
+        @media only screen and (max-width: 720px) {
+            .card {
+                grid-template-columns: auto;
+            }
+            .footer {
+                grid-template-columns: auto auto;
+            }
+            .about-bar {
+                flex-direction: column;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            
+            .footer {
+                grid-template-columns: auto;
+            }
+            .project {
+                flex-direction: column;
+            }
+        }
+
+        @media only screen and (max-width: 300px) {
+            .image {
+                width: 150px;
+            }
+        }
+
+
+        /* Generic classes */
+
+        .vertical-center {
+            margin: auto 0px;
+        }
+
+        .m-0 {
+            margin: 0;
+        }
+
+        .p-20 {
+            padding: 20px;
+        }
+
+        .pt-70 {
+            padding-top: 70px;
+        }
+
+        .ml-20 {
+            margin-left: 20px;
+        }
+
+        .mt-20 {
+            margin-top: 20px;
+        }
+
+        .mb-20 {
+            margin-bottom: 20px;
+        }
+
+        .mr-20 {
+            margin-right: 20px;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .position-fixed {
+            position: fixed;
+        }
+
+        .d-flex {
+            display: flex;
+        }
+
+        .flex-2 {
+            flex: 2;
+        }
+
+        .flex-3 {
+            flex: 3;
+        }
+
+        .justify-content-between {
+            justify-content: space-between;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        .cursive-font {
+            font-family: cursive;
+        }
+
+        .button {
+            background-color: #d6a1aa;
+            border: none;
+            color: rgb(15, 15, 15);
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 18px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button-inverse {
+            background-color: #f3d6d6;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header" class="top-nav position-fixed d-flex justify-content-between mb-20 cursive-font">
+        <div id="headername" class="header-name ml-20 vertical-center">Shalini Mishra</div>
+        <nav class="nav mr-20">
+            <div class="nav-icon p-20"><i class="fa fa-bars"></i></div>
+            <div class="nav-list m-0 p-20">
+                <span class="nav-list-item"><a class="nav-link" href="#header"><i class="fa fa-home"></i></a></span>
+                <span class="nav-list-item"><a class="nav-link" href="#about">About</a></span>
+                <span class="nav-list-item"><a class="nav-link" href="#education">Education</a></span>
+                <span class="nav-list-item"><a class="nav-link" href="#experiences">Experiences</a></span>
+                <span class="nav-list-item"><a class="nav-link" href="#skills">Skills</a></span>
+                <span class="nav-list-item"><a class="nav-link" href="#projects">Projects</a></span>
+                <span class="nav-list-item"><a class="nav-link" href="#blogs">Blogs</a></span>
+                <span class="nav-list-item"><a class="nav-link" href="#contact">Contact</a></span>
+            </div>
+        </nav>
+    </section>
+    <div class="container pt-70 cursive-font">
+        <section id="about" class="container-item about-bar">
+            <div class="text-center flex-2">
+                <div><img src="profile-photo.png" class="image" alt="Image"></div>
+                <div class="profile-image-caption mt-20"><b>Shalini Mishra</b></div>
+                <div>Modern Theoretical Physicist</div>
+            </div>
+            <div class="text-justify flex-3">
+                <div>
+                    <h2><b>ABOUT</b></h2>
+                </div>
+                <main> 
+                    <p>
+                        I am an enthusiastic Computer Science graduate student with experience in project
+                        associate and technical support background who is eager to collaborate in ambitious teams and blend with new technologies, ideas and
+                        people. An optimistic outlook makes me a great team player and good leader with management skills gained by
+                        placement coordination during undergraduate and previous job role.
+                    </p>
+                </main>
+                <div><a href="#" class="button">Resume</a></div>
+            </div>
+        </section>
+        <section id="education" class="container-item">
+            <h2>EDUCATION</h2>
+            <div class="card">
+                <div class="card-box">
+                    <div class="card-title">University of New Haven</div>
+                    <div class="card-description">
+                        MS, Computer Science<br />
+                        West Haven, Connecticut, USA<br />
+                        May, 2023.<br />
+                    </div>
+                    <div><a href="#" class="button button-inverse">Read Paper</a></div>
+                </div>
+                <div class="card-box">
+                    <div class="card-title">Guru Nanak Institutions Technical Campus</div>
+                    <div class="card-description">
+                        Bachelor in Technology<br />
+                        Hyderabad, Telangana, India<br />
+                        October, 2020.<br />
+                    </div>
+                    <div><a href="#" class="button button-inverse">Read Paper</a></div>
+                </div>
+            </div>
+        </section>
+       <section id="experiences" class="container-item">
+            <h2>EXPERIENCES</h2>
+            <div class="card">
+                <div class="card-box">
+                    <div class="card-title">IBM India Pvt. Ltd.</div>
+                    <div class="card-description">
+                        <summary>Technical Support Associate<br>
+                        November 2020- August 2021</summary><br>
+                        <details>
+                            Held ownership of reported issues. Researched, diagnosed, troubleshooted and identified solutions to them.<br/>
+                            Followed standard procedures for proper escalation of unresolved issues to the appropriate internal teams.<br/>
+                        </details>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-title">Placement Coordinator</div>
+                    <div class="card-description">
+                        <summary>GNITC<br>
+                        November 2020- August 2021</summary><br>
+                        <details>
+                            Explain it properly
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="container-item">
+            <h2>SKILLS</h2>
+            <div class="card">
+                <div class="card-box">
+                    <div class="card-title">Technical Skills</div>
+                    <div class="card-description">
+                        <section class="skills-wrapper">
+                            <label class="skill-label">C Programming</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:95%"></div>
+                            </div>
+                            <label class="skill-label">Java</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:90%"></div>
+                            </div>
+                            <label class="skill-label">Android</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:85%"></div>
+                            </div>
+                            <label class="skill-label">DBMS</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element"></div>
+                            </div>
+                            <label class="skill-label">System Design</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:85%"></div>
+                            </div>
+                            <label class="skill-label">UI/UX Design</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:80%"></div>
+                            </div>
+                            <label class="skill-label">MySQL</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:80%"></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="card-box">
+                    <div class="card-title">Non-Technical Skills</div>
+                    <div class="card-description">
+                        <section class="skills-wrapper">
+                            <label class="skill-label">Team Management</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:95%"></div>
+                            </div>
+                            <label class="skill-label">HR Management</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:90%"></div>
+                            </div>
+                            <label class="skill-label">Leadership</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:95%"></div>
+                            </div>
+                            <label class="skill-label">Problem Solving</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:90%"></div>
+                            </div>
+                            <label class="skill-label">Public Speaking</label>
+                            <div class="skill-wrapper">
+                                <div class="skill-element" style="width:90%"></div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="container-item">
+            <h2>PROJECTS</h2>
+            <div class="card">
+                <div class="card-box text-center">
+                    <div class="card-description mt-20 project">
+                        <div class="flex-2"><img src="Advertisement.png" class="image" alt="Advertisement"></div>
+                        <div class="flex-3">
+                            <article class="text-justify">
+                                <div class="card-title mb-20">Multi Web Page Advertisement Handling System</div>
+                                Developed a Multi web page Advertisement Handling System as a major project during my undergraduate. Worked for the purpose of scheduling and representation of advertisements on several pages as per the 
+                                specified time and space.
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-box text-center">
+                    <div class="card-description mt-20 project">
+                        <div class="flex-2"><img src="bookmyshow.jpg" class="image" alt="bookmyshow"></div>
+                        <div class="flex-3">
+                            <article class="text-justify">
+                                <div class="card-title mb-20">Book My Show</div>
+                                Developed an android application named 'BookMyShow' used for the purpose of convenient online bookings of movie tickets from specific movie theatres. 
+                                This application is built in a way that the theatre admin can handle the application in a location or area and the user can a book a movie ticket at the same time.
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blogs" class="container-item">
+            <h2>BLOGS</h2>
+            <div class="card">
+                <div class="card-box">
+                    <div class="card-title">My blog 1</div>
+                    <div class="card-description">
+                        Brief it<br />
+                    </div>
+                    <div><a href="#" class="button button-inverse">Read Blog</a></div>
+                </div>
+                <div class="card-box">
+                    <div class="card-title">My blog 2</div>
+                    <div class="card-description">
+                        Describe it<br />
+                    </div>
+                    <div><a href="#" class="button button-inverse">Read Blog</a></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="footer" class="container-item">
+        <div class="footer cursive-font">
+            <div class="footer-item">
+                <label>Contact</label>
+                <span>+14752879543</span>
+            </div>
+            <div class="footer-item">
+                <label>LinkedIn</label>
+                <a class="footer-image"><a href="https://www.linkedin.com/in/shalinimishra22/"><i class="fa fa-linkedin-square" style="font-size:25px"></i></a>
+            </div>
+            <div class="footer-item">
+                <img src="mail.jpg" class="footer-image" alt="mail">
+                <label><a href="https://outlook.office365.com/mail/">smish5@unh.newhaven.edu</a></label>
+            </div>
+            <div class="footer-item">
+                <img src="website.jpg" class="footer-image" alt="website">
+                <label><a href="https://github.com/shalinii22">shaliniigithub.com</a></label>
+            </div>
+            <div class="footer-item">
+                <img src="facebook.jpg" class="footer-image" alt="fb">
+                <label><a href="https://www.facebook.com/shalinii09876">Shalini Mishra</a></label>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('.nav').bind('mouseenter', function(e) { 
+            e.preventDefault();
+            $('.nav-list').addClass('auto-height');
+        });
+        $('.nav').bind('mouseleave', function(e) { 
+            e.preventDefault();
+            $('.nav-list').removeClass('auto-height');
+        });
+    </script>
+</body>
+</html>
